@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeController: UICollectionViewController {
+class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
     let cellId = "cellId"
     
@@ -28,6 +28,10 @@ class HomeController: UICollectionViewController {
         
         cell.backgroundColor = .blue
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: view.frame.width, height: 50)
     }
 }
 
