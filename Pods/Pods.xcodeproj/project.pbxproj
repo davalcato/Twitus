@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25DF8F191A332BCFBB01E155E649A030 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3712338D35E7909065F6E9051DDFC53C /* Pods-TwitusTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5724E64B5AB858E51FA8707A6B8FCB8D /* Pods-TwitusTests-dummy.m */; };
+		3F50A26BE9D51B905E42154801BECEC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		8EF64908CD5D87BBBAFF8558F7820868 /* Pods-TwitusTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B934E547D7ED2E0E38CC83D5759ECFBA /* Pods-TwitusTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A152B0CD2D7035FABDEC6B5B076C6CE6 /* Pods-Twitus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 306C22B9FF1C7D0BEBBFDD51CF839E27 /* Pods-Twitus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A226BC91822BB2B121D75879BAE2E6EB /* Pods-TwitusUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4BBAB44C0CF3C1941B2D4CC4B97CDB8 /* Pods-TwitusUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8C7E1B3B430E2DF4F180268DF866C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		FA8435D8AACC0A29DB0518E7E69B9060 /* Pods-TwitusUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D88D3981552D74750A15DFA02CEE36 /* Pods-TwitusUITests-dummy.m */; };
+		FC6EEB339E6E6FBD183F0C35A350181C /* Pods-Twitus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A8B228EDC20BC8689851351C7F5E39 /* Pods-Twitus-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C0ED6AF9A09515CADFE2762A195990C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A036958B6AC040EF75C0C6FDE3F85E5;
+			remoteInfo = "Pods-Twitus";
+		};
+		C48B76588275D10444CCF3946A278C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A036958B6AC040EF75C0C6FDE3F85E5;
+			remoteInfo = "Pods-Twitus";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0355D4FDE7A7618665062805C08E9CA7 /* Pods-TwitusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0D9FBF662CCB91DC151DE611310575DB /* Pods-Twitus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Twitus.modulemap"; sourceTree = "<group>"; };
+		17ADB96B6F323411A83B1984A5E2FB25 /* Pods-TwitusUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitusUITests-Info.plist"; sourceTree = "<group>"; };
+		2187198D1B7BC60FEDF047FCFFFE0AB0 /* Pods-TwitusUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitusUITests.modulemap"; sourceTree = "<group>"; };
+		306C22B9FF1C7D0BEBBFDD51CF839E27 /* Pods-Twitus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Twitus-umbrella.h"; sourceTree = "<group>"; };
+		472BD2F95ABE0599911DFC367B7DB122 /* Pods_TwitusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitusUITests.framework; path = "Pods-TwitusUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CC2523055E344050363C26FB441CE0 /* Pods_Twitus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Twitus.framework; path = "Pods-Twitus.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5724E64B5AB858E51FA8707A6B8FCB8D /* Pods-TwitusTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitusTests-dummy.m"; sourceTree = "<group>"; };
+		658DB3D1707AFED205C01EA4525509D4 /* Pods-TwitusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B65BCC295718040A458B43065AABE7B /* Pods-TwitusUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitusUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FAF01666FB63883B6B122AE6A08A820 /* Pods_TwitusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitusTests.framework; path = "Pods-TwitusTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BB8397ED6FBBFAAE52A2646CB6CB70 /* Pods-TwitusTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitusTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7905614272655AA718AF46E371754578 /* Pods-Twitus-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Twitus-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D9A8A73765D9BCC18D33AD6AE2A7732 /* Pods-TwitusUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitusUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86205E41CD76E36CC91BAEC244DC89B8 /* Pods-TwitusTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitusTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B9760A817488277CCB4BED0024A25E8 /* Pods-Twitus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Twitus.debug.xcconfig"; sourceTree = "<group>"; };
+		920662B367FA6A634D787F62EAF48C53 /* Pods-TwitusTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitusTests.modulemap"; sourceTree = "<group>"; };
+		9A46B058738DF3DF696FCAE17A1EC32B /* Pods-TwitusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitusTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A17E7CC980FC164DE99EEA219E8FFC0A /* Pods-Twitus-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Twitus-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A5A8B228EDC20BC8689851351C7F5E39 /* Pods-Twitus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Twitus-dummy.m"; sourceTree = "<group>"; };
+		B6F76FAC9324549F2C265E81DCE1BA40 /* Pods-TwitusTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitusTests-Info.plist"; sourceTree = "<group>"; };
+		B934E547D7ED2E0E38CC83D5759ECFBA /* Pods-TwitusTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitusTests-umbrella.h"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E4BBAB44C0CF3C1941B2D4CC4B97CDB8 /* Pods-TwitusUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitusUITests-umbrella.h"; sourceTree = "<group>"; };
+		E8A1CFBD7E8EE311708D83621A6756E0 /* Pods-Twitus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Twitus-Info.plist"; sourceTree = "<group>"; };
+		F4D88D3981552D74750A15DFA02CEE36 /* Pods-TwitusUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitusUITests-dummy.m"; sourceTree = "<group>"; };
+		F8A70BFEEFF5C625B67D2656082F612E /* Pods-TwitusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF4951AA71DDA5E91E9EA9F554AB3CF6 /* Pods-Twitus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Twitus.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		427A428754E6D94B24CAD87A76918E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DF8F191A332BCFBB01E155E649A030 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6132D2F47F9AE68F751DC615FEF00255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C7E1B3B430E2DF4F180268DF866C6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834292D5A9817275B22ED8A6E3CD6D57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F50A26BE9D51B905E42154801BECEC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BCB95F2E9C91816B8F3A3EE096B2664 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E65B0EA907044E54DA02553BBF3822E /* Pods-Twitus */,
+				81E8AFA1EADC4E107C2931A17B97A0B6 /* Pods-TwitusTests */,
+				CB013F9D3AD94D7C1F95589985A2CC25 /* Pods-TwitusUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		71031E3089478AAE7A171F9557033B7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55CC2523055E344050363C26FB441CE0 /* Pods_Twitus.framework */,
+				6FAF01666FB63883B6B122AE6A08A820 /* Pods_TwitusTests.framework */,
+				472BD2F95ABE0599911DFC367B7DB122 /* Pods_TwitusUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E65B0EA907044E54DA02553BBF3822E /* Pods-Twitus */ = {
+			isa = PBXGroup;
+			children = (
+				0D9FBF662CCB91DC151DE611310575DB /* Pods-Twitus.modulemap */,
+				A17E7CC980FC164DE99EEA219E8FFC0A /* Pods-Twitus-acknowledgements.markdown */,
+				7905614272655AA718AF46E371754578 /* Pods-Twitus-acknowledgements.plist */,
+				A5A8B228EDC20BC8689851351C7F5E39 /* Pods-Twitus-dummy.m */,
+				E8A1CFBD7E8EE311708D83621A6756E0 /* Pods-Twitus-Info.plist */,
+				306C22B9FF1C7D0BEBBFDD51CF839E27 /* Pods-Twitus-umbrella.h */,
+				8B9760A817488277CCB4BED0024A25E8 /* Pods-Twitus.debug.xcconfig */,
+				FF4951AA71DDA5E91E9EA9F554AB3CF6 /* Pods-Twitus.release.xcconfig */,
+			);
+			name = "Pods-Twitus";
+			path = "Target Support Files/Pods-Twitus";
+			sourceTree = "<group>";
+		};
+		81E8AFA1EADC4E107C2931A17B97A0B6 /* Pods-TwitusTests */ = {
+			isa = PBXGroup;
+			children = (
+				920662B367FA6A634D787F62EAF48C53 /* Pods-TwitusTests.modulemap */,
+				86205E41CD76E36CC91BAEC244DC89B8 /* Pods-TwitusTests-acknowledgements.markdown */,
+				70BB8397ED6FBBFAAE52A2646CB6CB70 /* Pods-TwitusTests-acknowledgements.plist */,
+				5724E64B5AB858E51FA8707A6B8FCB8D /* Pods-TwitusTests-dummy.m */,
+				B6F76FAC9324549F2C265E81DCE1BA40 /* Pods-TwitusTests-Info.plist */,
+				B934E547D7ED2E0E38CC83D5759ECFBA /* Pods-TwitusTests-umbrella.h */,
+				F8A70BFEEFF5C625B67D2656082F612E /* Pods-TwitusTests.debug.xcconfig */,
+				9A46B058738DF3DF696FCAE17A1EC32B /* Pods-TwitusTests.release.xcconfig */,
+			);
+			name = "Pods-TwitusTests";
+			path = "Target Support Files/Pods-TwitusTests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CB013F9D3AD94D7C1F95589985A2CC25 /* Pods-TwitusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2187198D1B7BC60FEDF047FCFFFE0AB0 /* Pods-TwitusUITests.modulemap */,
+				7D9A8A73765D9BCC18D33AD6AE2A7732 /* Pods-TwitusUITests-acknowledgements.markdown */,
+				6B65BCC295718040A458B43065AABE7B /* Pods-TwitusUITests-acknowledgements.plist */,
+				F4D88D3981552D74750A15DFA02CEE36 /* Pods-TwitusUITests-dummy.m */,
+				17ADB96B6F323411A83B1984A5E2FB25 /* Pods-TwitusUITests-Info.plist */,
+				E4BBAB44C0CF3C1941B2D4CC4B97CDB8 /* Pods-TwitusUITests-umbrella.h */,
+				658DB3D1707AFED205C01EA4525509D4 /* Pods-TwitusUITests.debug.xcconfig */,
+				0355D4FDE7A7618665062805C08E9CA7 /* Pods-TwitusUITests.release.xcconfig */,
+			);
+			name = "Pods-TwitusUITests";
+			path = "Target Support Files/Pods-TwitusUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				71031E3089478AAE7A171F9557033B7F /* Products */,
+				4BCB95F2E9C91816B8F3A3EE096B2664 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		073D44F8172A4D3D88A1198B698DD3F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A152B0CD2D7035FABDEC6B5B076C6CE6 /* Pods-Twitus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B17E05B0F59B31855327F72313B3957 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A226BC91822BB2B121D75879BAE2E6EB /* Pods-TwitusUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8DEF9C9225522D983C8815169C4D62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF64908CD5D87BBBAFF8558F7820868 /* Pods-TwitusTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DAAB8A684276C449AA5AE7D970024D5 /* Pods-TwitusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3539E7072FEF6877AAAC485C7DE18F59 /* Build configuration list for PBXNativeTarget "Pods-TwitusTests" */;
+			buildPhases = (
+				8C8DEF9C9225522D983C8815169C4D62 /* Headers */,
+				4049D9E4B1E3D492FD090DB872DFD8B8 /* Sources */,
+				427A428754E6D94B24CAD87A76918E9F /* Frameworks */,
+				1538BCFBE887F31E7114CB0C9B22419D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B72ADD2C9657E6AAA26B7358B0C3D13B /* PBXTargetDependency */,
+			);
+			name = "Pods-TwitusTests";
+			productName = "Pods-TwitusTests";
+			productReference = 6FAF01666FB63883B6B122AE6A08A820 /* Pods_TwitusTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A036958B6AC040EF75C0C6FDE3F85E5 /* Pods-Twitus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7DFC8A9DBE07358349AECE2F37E7D33 /* Build configuration list for PBXNativeTarget "Pods-Twitus" */;
+			buildPhases = (
+				073D44F8172A4D3D88A1198B698DD3F8 /* Headers */,
+				03A00A7D7D381ACE737918F647931465 /* Sources */,
+				834292D5A9817275B22ED8A6E3CD6D57 /* Frameworks */,
+				D6B987D7BBE343A22CA343CA3A0DE247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Twitus";
+			productName = "Pods-Twitus";
+			productReference = 55CC2523055E344050363C26FB441CE0 /* Pods_Twitus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56159134D4106B71872DD5AB5D1C487E /* Pods-TwitusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB8901D89FD6F06F73DD2C9E3C35D87 /* Build configuration list for PBXNativeTarget "Pods-TwitusUITests" */;
+			buildPhases = (
+				7B17E05B0F59B31855327F72313B3957 /* Headers */,
+				DB768129FDBCD588CA0662C74370C016 /* Sources */,
+				6132D2F47F9AE68F751DC615FEF00255 /* Frameworks */,
+				9DE70E1DF069B411AA9BC1CC6F4DA51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E637906C355B863B790F2B7A82E15678 /* PBXTargetDependency */,
+			);
+			name = "Pods-TwitusUITests";
+			productName = "Pods-TwitusUITests";
+			productReference = 472BD2F95ABE0599911DFC367B7DB122 /* Pods_TwitusUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 71031E3089478AAE7A171F9557033B7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A036958B6AC040EF75C0C6FDE3F85E5 /* Pods-Twitus */,
+				1DAAB8A684276C449AA5AE7D970024D5 /* Pods-TwitusTests */,
+				56159134D4106B71872DD5AB5D1C487E /* Pods-TwitusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1538BCFBE887F31E7114CB0C9B22419D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE70E1DF069B411AA9BC1CC6F4DA51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B987D7BBE343A22CA343CA3A0DE247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03A00A7D7D381ACE737918F647931465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6EEB339E6E6FBD183F0C35A350181C /* Pods-Twitus-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4049D9E4B1E3D492FD090DB872DFD8B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3712338D35E7909065F6E9051DDFC53C /* Pods-TwitusTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB768129FDBCD588CA0662C74370C016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8435D8AACC0A29DB0518E7E69B9060 /* Pods-TwitusUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B72ADD2C9657E6AAA26B7358B0C3D13B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Twitus";
+			target = 4A036958B6AC040EF75C0C6FDE3F85E5 /* Pods-Twitus */;
+			targetProxy = 3C0ED6AF9A09515CADFE2762A195990C /* PBXContainerItemProxy */;
+		};
+		E637906C355B863B790F2B7A82E15678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Twitus";
+			target = 4A036958B6AC040EF75C0C6FDE3F85E5 /* Pods-Twitus */;
+			targetProxy = C48B76588275D10444CCF3946A278C65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17FB2B9B27F3D160CAAEA95C5D6DAC4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 658DB3D1707AFED205C01EA4525509D4 /* Pods-TwitusUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitusUITests/Pods-TwitusUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitusUITests/Pods-TwitusUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		35DC8078C700ACEF86CAAA03C3709D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0355D4FDE7A7618665062805C08E9CA7 /* Pods-TwitusUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitusUITests/Pods-TwitusUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitusUITests/Pods-TwitusUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69FCCEF285FA928BAC4C42470B26B900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4951AA71DDA5E91E9EA9F554AB3CF6 /* Pods-Twitus.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Twitus/Pods-Twitus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Twitus/Pods-Twitus.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		852EE27560AA5135C9BDF18621390571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A70BFEEFF5C625B67D2656082F612E /* Pods-TwitusTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitusTests/Pods-TwitusTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitusTests/Pods-TwitusTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9361EC36741C4F8E5E7582335E085BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B9760A817488277CCB4BED0024A25E8 /* Pods-Twitus.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Twitus/Pods-Twitus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Twitus/Pods-Twitus.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA07EE2E04D005E52146FFB2227A18FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A46B058738DF3DF696FCAE17A1EC32B /* Pods-TwitusTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitusTests/Pods-TwitusTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitusTests/Pods-TwitusTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3539E7072FEF6877AAAC485C7DE18F59 /* Build configuration list for PBXNativeTarget "Pods-TwitusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852EE27560AA5135C9BDF18621390571 /* Debug */,
+				CA07EE2E04D005E52146FFB2227A18FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB8901D89FD6F06F73DD2C9E3C35D87 /* Build configuration list for PBXNativeTarget "Pods-TwitusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FB2B9B27F3D160CAAEA95C5D6DAC4E /* Debug */,
+				35DC8078C700ACEF86CAAA03C3709D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7DFC8A9DBE07358349AECE2F37E7D33 /* Build configuration list for PBXNativeTarget "Pods-Twitus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9361EC36741C4F8E5E7582335E085BBF /* Debug */,
+				69FCCEF285FA928BAC4C42470B26B900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

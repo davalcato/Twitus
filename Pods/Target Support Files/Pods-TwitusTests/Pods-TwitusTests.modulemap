@@ -1,0 +1,6 @@
+framework module Pods_TwitusTests {
+  umbrella header "Pods-TwitusTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
