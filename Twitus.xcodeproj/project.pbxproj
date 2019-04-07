@@ -11,8 +11,6 @@
 		65D1893929930F6E5E8E228B /* Pods_TwitusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2248ABF77FD1FD3262D6ADD7 /* Pods_TwitusTests.framework */; };
 		751100F5225A741B008E8AB2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751100F4225A741B008E8AB2 /* HomeController.swift */; };
 		75D53F82225A69EA0055421F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D53F81225A69EA0055421F /* AppDelegate.swift */; };
-		75D53F84225A69EA0055421F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D53F83225A69EA0055421F /* ViewController.swift */; };
-		75D53F87225A69EA0055421F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D53F85225A69EA0055421F /* Main.storyboard */; };
 		75D53F89225A69EC0055421F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D53F88225A69EC0055421F /* Assets.xcassets */; };
 		75D53F8C225A69EC0055421F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D53F8A225A69EC0055421F /* LaunchScreen.storyboard */; };
 		75D53F97225A69EC0055421F /* TwitusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D53F96225A69EC0055421F /* TwitusTests.swift */; };
@@ -44,8 +42,6 @@
 		751100F4225A741B008E8AB2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		75D53F7E225A69EA0055421F /* Twitus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D53F81225A69EA0055421F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75D53F83225A69EA0055421F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		75D53F86225A69EA0055421F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75D53F88225A69EC0055421F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75D53F8B225A69EC0055421F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75D53F8D225A69EC0055421F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -141,8 +137,6 @@
 			children = (
 				75D53F81225A69EA0055421F /* AppDelegate.swift */,
 				751100F4225A741B008E8AB2 /* HomeController.swift */,
-				75D53F83225A69EA0055421F /* ViewController.swift */,
-				75D53F85225A69EA0055421F /* Main.storyboard */,
 				75D53F88225A69EC0055421F /* Assets.xcassets */,
 				75D53F8A225A69EC0055421F /* LaunchScreen.storyboard */,
 				75D53F8D225A69EC0055421F /* Info.plist */,
@@ -277,7 +271,6 @@
 			files = (
 				75D53F8C225A69EC0055421F /* LaunchScreen.storyboard in Resources */,
 				75D53F89225A69EC0055421F /* Assets.xcassets in Resources */,
-				75D53F87225A69EA0055421F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +364,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75D53F84225A69EA0055421F /* ViewController.swift in Sources */,
 				75D53F82225A69EA0055421F /* AppDelegate.swift in Sources */,
 				751100F5225A741B008E8AB2 /* HomeController.swift in Sources */,
 			);
@@ -409,14 +401,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		75D53F85225A69EA0055421F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75D53F86225A69EA0055421F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		75D53F8A225A69EC0055421F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
