@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		085F7EE1240AC9BA47B8D1C4 /* Pods_TwitusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD78B13B3694AB585C93936 /* Pods_TwitusUITests.framework */; };
 		65D1893929930F6E5E8E228B /* Pods_TwitusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2248ABF77FD1FD3262D6ADD7 /* Pods_TwitusTests.framework */; };
+		751100F5225A741B008E8AB2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751100F4225A741B008E8AB2 /* HomeController.swift */; };
 		75D53F82225A69EA0055421F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D53F81225A69EA0055421F /* AppDelegate.swift */; };
 		75D53F84225A69EA0055421F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D53F83225A69EA0055421F /* ViewController.swift */; };
 		75D53F87225A69EA0055421F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D53F85225A69EA0055421F /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		134B30C9CFC468786C2E819F /* Pods-TwitusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitusTests.debug.xcconfig"; path = "Target Support Files/Pods-TwitusTests/Pods-TwitusTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2248ABF77FD1FD3262D6ADD7 /* Pods_TwitusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD78B13B3694AB585C93936 /* Pods_TwitusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		751100F4225A741B008E8AB2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		75D53F7E225A69EA0055421F /* Twitus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D53F81225A69EA0055421F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75D53F83225A69EA0055421F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,7 +111,6 @@
 				8D98D0C4F07F0B31EE7A1DFB /* Pods-TwitusUITests.debug.xcconfig */,
 				C2AD625667DF15F56BB7576A /* Pods-TwitusUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -139,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				75D53F81225A69EA0055421F /* AppDelegate.swift */,
+				751100F4225A741B008E8AB2 /* HomeController.swift */,
 				75D53F83225A69EA0055421F /* ViewController.swift */,
 				75D53F85225A69EA0055421F /* Main.storyboard */,
 				75D53F88225A69EC0055421F /* Assets.xcassets */,
@@ -371,6 +373,7 @@
 			files = (
 				75D53F84225A69EA0055421F /* ViewController.swift in Sources */,
 				75D53F82225A69EA0055421F /* AppDelegate.swift in Sources */,
+				751100F5225A741B008E8AB2 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
