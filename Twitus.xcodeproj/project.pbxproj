@@ -10,6 +10,7 @@
 		085F7EE1240AC9BA47B8D1C4 /* Pods_TwitusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD78B13B3694AB585C93936 /* Pods_TwitusUITests.framework */; };
 		65D1893929930F6E5E8E228B /* Pods_TwitusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2248ABF77FD1FD3262D6ADD7 /* Pods_TwitusTests.framework */; };
 		751100F5225A741B008E8AB2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751100F4225A741B008E8AB2 /* HomeController.swift */; };
+		752888A6225C4C950028F0DB /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752888A5225C4C950028F0DB /* HomeDatasourceController.swift */; };
 		75D53F82225A69EA0055421F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D53F81225A69EA0055421F /* AppDelegate.swift */; };
 		75D53F89225A69EC0055421F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D53F88225A69EC0055421F /* Assets.xcassets */; };
 		75D53F8C225A69EC0055421F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D53F8A225A69EC0055421F /* LaunchScreen.storyboard */; };
@@ -40,6 +41,7 @@
 		2248ABF77FD1FD3262D6ADD7 /* Pods_TwitusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD78B13B3694AB585C93936 /* Pods_TwitusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		751100F4225A741B008E8AB2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		752888A5225C4C950028F0DB /* HomeDatasourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeDatasourceController.swift; path = /Users/davalcato/Desktop/Twitus/Twitus/HomeDatasourceController.swift; sourceTree = "<absolute>"; };
 		75D53F7E225A69EA0055421F /* Twitus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D53F81225A69EA0055421F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75D53F88225A69EC0055421F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			children = (
 				75D53F81225A69EA0055421F /* AppDelegate.swift */,
 				751100F4225A741B008E8AB2 /* HomeController.swift */,
+				752888A5225C4C950028F0DB /* HomeDatasourceController.swift */,
 				75D53F88225A69EC0055421F /* Assets.xcassets */,
 				75D53F8A225A69EC0055421F /* LaunchScreen.storyboard */,
 				75D53F8D225A69EC0055421F /* Info.plist */,
@@ -173,6 +176,7 @@
 				75D53F7A225A69EA0055421F /* Sources */,
 				75D53F7B225A69EA0055421F /* Frameworks */,
 				75D53F7C225A69EA0055421F /* Resources */,
+				E275281D8B704DDE1D2193CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -335,6 +339,30 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E275281D8B704DDE1D2193CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twitus/Pods-Twitus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Twitus/Pods-Twitus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FFDDD7D719592EA02BDB243E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -365,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75D53F82225A69EA0055421F /* AppDelegate.swift in Sources */,
+				752888A6225C4C950028F0DB /* HomeDatasourceController.swift in Sources */,
 				751100F5225A741B008E8AB2 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

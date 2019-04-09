@@ -1,3 +1,20 @@
-PODFILE CHECKSUM: 5b257ce61171f574735ca946d5a3fb4af194d5f6
+PODS:
+  - LBTAComponents (0.1.9)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - LBTAComponents (~> 0.1.9)
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LBTAComponents
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  LBTAComponents: 9a5d314080d1f80208062ccc81a2d25225c5f572
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 68fdfc2741aa04ef6a462990a392293c32fec224
 
 COCOAPODS: 1.6.1
