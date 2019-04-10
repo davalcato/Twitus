@@ -129,10 +129,10 @@
 			children = (
 				75D53F81225A69EA0055421F /* AppDelegate.swift */,
 				751100F4225A741B008E8AB2 /* HomeController.swift */,
+				75376629225D92FC000FF34B /* HomeDatasourceController.swift */,
 				75D53F88225A69EC0055421F /* Assets.xcassets */,
 				75D53F8A225A69EC0055421F /* LaunchScreen.storyboard */,
 				75D53F8D225A69EC0055421F /* Info.plist */,
-				75376629225D92FC000FF34B /* HomeDatasourceController.swift */,
 			);
 			path = Twitus;
 			sourceTree = "<group>";
