@@ -8,14 +8,20 @@
 
 import LBTAComponents
 
-class UserHeader: DatasourceCell {
+
+class UserFooter: DatasourceCell {
     override func setupViews() {
         super.setupViews()
         backgroundColor = .blue
     }
 }
 
-
+class UserHeader: DatasourceCell {
+    override func setupViews() {
+        super.setupViews()
+        backgroundColor = .blue
+    }
+}
 
 class UserCell: DatasourceCell {
     
@@ -46,6 +52,10 @@ class UserCell: DatasourceCell {
 class HomeDatasource: Datasource {
     
     let words = ["user1", "user2", "user3"]
+    
+    override func footerClasses() -> [DatasourceCell.Type]? {
+        return [UserFooter.self]
+    }
     
     override func headerClasses() -> [DatasourceCell.Type]? {
         return [UserHeader.self]
@@ -78,7 +88,9 @@ class HomeDatasourceController: DatasourceController {
         return CGSize(width: view.frame.width, height: 50)
     }
     
-    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
+        return CGSize(width: view.frame.width, height: 50)
+    }
     
     
     
