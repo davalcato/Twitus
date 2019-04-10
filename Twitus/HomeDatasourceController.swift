@@ -8,9 +8,21 @@
 
 import LBTAComponents
 
+class UserCell: DatasourceCell {
+    override func setupViews() {
+        super.setupViews()
+        backgroundColor = .yellow
+    }
+}
+
+
 class HomeDatasource: Datasource {
     
     let words = ["user1", "user2", "user3"]
+    
+    override func cellClasses() -> [DatasourceCell.Type] {
+        return [UserCell.self]
+    }
     
     override func item(_ indexPath: IndexPath) -> Any? {
         return words[indexPath.item]
