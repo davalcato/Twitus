@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		085F7EE1240AC9BA47B8D1C4 /* Pods_TwitusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD78B13B3694AB585C93936 /* Pods_TwitusUITests.framework */; };
-		65D1893929930F6E5E8E228B /* Pods_TwitusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2248ABF77FD1FD3262D6ADD7 /* Pods_TwitusTests.framework */; };
+		593FCE0E5DEB771D65A391FF /* Pods_Twitus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38354AD04BA060E5C16A43CA /* Pods_Twitus.framework */; };
+		5D3ECA1BA0257E70087F02DD /* Pods_TwitusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE749A2099A9C092F45A0B13 /* Pods_TwitusUITests.framework */; };
 		751100F5225A741B008E8AB2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751100F4225A741B008E8AB2 /* HomeController.swift */; };
-		752888A6225C4C950028F0DB /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752888A5225C4C950028F0DB /* HomeDatasourceController.swift */; };
+		7537662A225D92FC000FF34B /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75376629225D92FC000FF34B /* HomeDatasourceController.swift */; };
 		75D53F82225A69EA0055421F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D53F81225A69EA0055421F /* AppDelegate.swift */; };
 		75D53F89225A69EC0055421F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D53F88225A69EC0055421F /* Assets.xcassets */; };
 		75D53F8C225A69EC0055421F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D53F8A225A69EC0055421F /* LaunchScreen.storyboard */; };
 		75D53F97225A69EC0055421F /* TwitusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D53F96225A69EC0055421F /* TwitusTests.swift */; };
 		75D53FA2225A69EC0055421F /* TwitusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D53FA1225A69EC0055421F /* TwitusUITests.swift */; };
-		CD262C5DA7E5BE3D777A7C55 /* Pods_Twitus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D62DC10CB0ABF061781D9EA /* Pods_Twitus.framework */; };
+		B8E11640879AF4BAB6121C5F /* Pods_TwitusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A204CA40DC7131A3E9B3226D /* Pods_TwitusTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		134B30C9CFC468786C2E819F /* Pods-TwitusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitusTests.debug.xcconfig"; path = "Target Support Files/Pods-TwitusTests/Pods-TwitusTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2248ABF77FD1FD3262D6ADD7 /* Pods_TwitusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FD78B13B3694AB585C93936 /* Pods_TwitusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38354AD04BA060E5C16A43CA /* Pods_Twitus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twitus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC3EF3D41515DB9ADA9F346 /* Pods-TwitusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitusTests.debug.xcconfig"; path = "Target Support Files/Pods-TwitusTests/Pods-TwitusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		60CDCC6A01898E824D034E57 /* Pods-TwitusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitusTests.release.xcconfig"; path = "Target Support Files/Pods-TwitusTests/Pods-TwitusTests.release.xcconfig"; sourceTree = "<group>"; };
+		70DED920D8A01BD0D74E1177 /* Pods-TwitusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitusUITests.debug.xcconfig"; path = "Target Support Files/Pods-TwitusUITests/Pods-TwitusUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		751100F4225A741B008E8AB2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
-		752888A5225C4C950028F0DB /* HomeDatasourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeDatasourceController.swift; path = /Users/davalcato/Desktop/Twitus/Twitus/HomeDatasourceController.swift; sourceTree = "<absolute>"; };
+		75376629225D92FC000FF34B /* HomeDatasourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDatasourceController.swift; sourceTree = "<group>"; };
 		75D53F7E225A69EA0055421F /* Twitus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D53F81225A69EA0055421F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75D53F88225A69EC0055421F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,12 +54,11 @@
 		75D53F9D225A69EC0055421F /* TwitusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D53FA1225A69EC0055421F /* TwitusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitusUITests.swift; sourceTree = "<group>"; };
 		75D53FA3225A69EC0055421F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A541BEC4B09526A3121F1F1 /* Pods-TwitusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitusTests.release.xcconfig"; path = "Target Support Files/Pods-TwitusTests/Pods-TwitusTests.release.xcconfig"; sourceTree = "<group>"; };
-		8D62DC10CB0ABF061781D9EA /* Pods_Twitus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twitus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D98D0C4F07F0B31EE7A1DFB /* Pods-TwitusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitusUITests.debug.xcconfig"; path = "Target Support Files/Pods-TwitusUITests/Pods-TwitusUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		93233DC2334DB08EC2936AF7 /* Pods-Twitus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitus.release.xcconfig"; path = "Target Support Files/Pods-Twitus/Pods-Twitus.release.xcconfig"; sourceTree = "<group>"; };
-		9893BB3079CC41C139457415 /* Pods-Twitus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitus.debug.xcconfig"; path = "Target Support Files/Pods-Twitus/Pods-Twitus.debug.xcconfig"; sourceTree = "<group>"; };
-		C2AD625667DF15F56BB7576A /* Pods-TwitusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitusUITests.release.xcconfig"; path = "Target Support Files/Pods-TwitusUITests/Pods-TwitusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7634405D723A0CA7F5AB969D /* Pods-TwitusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitusUITests.release.xcconfig"; path = "Target Support Files/Pods-TwitusUITests/Pods-TwitusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A204CA40DC7131A3E9B3226D /* Pods_TwitusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46F19F85F3A6811B73B1441 /* Pods-Twitus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitus.release.xcconfig"; path = "Target Support Files/Pods-Twitus/Pods-Twitus.release.xcconfig"; sourceTree = "<group>"; };
+		CE749A2099A9C092F45A0B13 /* Pods_TwitusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F116DA44F2A17BF358F4051C /* Pods-Twitus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitus.debug.xcconfig"; path = "Target Support Files/Pods-Twitus/Pods-Twitus.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD262C5DA7E5BE3D777A7C55 /* Pods_Twitus.framework in Frameworks */,
+				593FCE0E5DEB771D65A391FF /* Pods_Twitus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D1893929930F6E5E8E228B /* Pods_TwitusTests.framework in Frameworks */,
+				B8E11640879AF4BAB6121C5F /* Pods_TwitusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,32 +82,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				085F7EE1240AC9BA47B8D1C4 /* Pods_TwitusUITests.framework in Frameworks */,
+				5D3ECA1BA0257E70087F02DD /* Pods_TwitusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0648941AD4EBB903DF4CC5E9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8D62DC10CB0ABF061781D9EA /* Pods_Twitus.framework */,
-				2248ABF77FD1FD3262D6ADD7 /* Pods_TwitusTests.framework */,
-				3FD78B13B3694AB585C93936 /* Pods_TwitusUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		5A6E69B9ED3A8C2C1017502A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9893BB3079CC41C139457415 /* Pods-Twitus.debug.xcconfig */,
-				93233DC2334DB08EC2936AF7 /* Pods-Twitus.release.xcconfig */,
-				134B30C9CFC468786C2E819F /* Pods-TwitusTests.debug.xcconfig */,
-				8A541BEC4B09526A3121F1F1 /* Pods-TwitusTests.release.xcconfig */,
-				8D98D0C4F07F0B31EE7A1DFB /* Pods-TwitusUITests.debug.xcconfig */,
-				C2AD625667DF15F56BB7576A /* Pods-TwitusUITests.release.xcconfig */,
+				F116DA44F2A17BF358F4051C /* Pods-Twitus.debug.xcconfig */,
+				B46F19F85F3A6811B73B1441 /* Pods-Twitus.release.xcconfig */,
+				3FC3EF3D41515DB9ADA9F346 /* Pods-TwitusTests.debug.xcconfig */,
+				60CDCC6A01898E824D034E57 /* Pods-TwitusTests.release.xcconfig */,
+				70DED920D8A01BD0D74E1177 /* Pods-TwitusUITests.debug.xcconfig */,
+				7634405D723A0CA7F5AB969D /* Pods-TwitusUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -120,7 +110,7 @@
 				75D53FA0225A69EC0055421F /* TwitusUITests */,
 				75D53F7F225A69EA0055421F /* Products */,
 				5A6E69B9ED3A8C2C1017502A /* Pods */,
-				0648941AD4EBB903DF4CC5E9 /* Frameworks */,
+				B0E7DD6E6540F722916F66D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,10 +129,10 @@
 			children = (
 				75D53F81225A69EA0055421F /* AppDelegate.swift */,
 				751100F4225A741B008E8AB2 /* HomeController.swift */,
-				752888A5225C4C950028F0DB /* HomeDatasourceController.swift */,
 				75D53F88225A69EC0055421F /* Assets.xcassets */,
 				75D53F8A225A69EC0055421F /* LaunchScreen.storyboard */,
 				75D53F8D225A69EC0055421F /* Info.plist */,
+				75376629225D92FC000FF34B /* HomeDatasourceController.swift */,
 			);
 			path = Twitus;
 			sourceTree = "<group>";
@@ -165,6 +155,16 @@
 			path = TwitusUITests;
 			sourceTree = "<group>";
 		};
+		B0E7DD6E6540F722916F66D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38354AD04BA060E5C16A43CA /* Pods_Twitus.framework */,
+				A204CA40DC7131A3E9B3226D /* Pods_TwitusTests.framework */,
+				CE749A2099A9C092F45A0B13 /* Pods_TwitusUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,11 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75D53FA6225A69EC0055421F /* Build configuration list for PBXNativeTarget "Twitus" */;
 			buildPhases = (
-				68B776520DCA9ED3ACED26E6 /* [CP] Check Pods Manifest.lock */,
+				80B5E30806C1AC5803697708 /* [CP] Check Pods Manifest.lock */,
 				75D53F7A225A69EA0055421F /* Sources */,
 				75D53F7B225A69EA0055421F /* Frameworks */,
 				75D53F7C225A69EA0055421F /* Resources */,
-				E275281D8B704DDE1D2193CC /* [CP] Embed Pods Frameworks */,
+				7D3CB41D74160C83E1D6650C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,7 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75D53FA9225A69EC0055421F /* Build configuration list for PBXNativeTarget "TwitusTests" */;
 			buildPhases = (
-				7BE35D06B243DB2767B14AEB /* [CP] Check Pods Manifest.lock */,
+				E005CB20B7EE85C24F8F9E56 /* [CP] Check Pods Manifest.lock */,
 				75D53F8E225A69EC0055421F /* Sources */,
 				75D53F8F225A69EC0055421F /* Frameworks */,
 				75D53F90225A69EC0055421F /* Resources */,
@@ -210,7 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75D53FAC225A69EC0055421F /* Build configuration list for PBXNativeTarget "TwitusUITests" */;
 			buildPhases = (
-				FFDDD7D719592EA02BDB243E /* [CP] Check Pods Manifest.lock */,
+				A121F4C04EE6D8F67BA1CB98 /* [CP] Check Pods Manifest.lock */,
 				75D53F99225A69EC0055421F /* Sources */,
 				75D53F9A225A69EC0055421F /* Frameworks */,
 				75D53F9B225A69EC0055421F /* Resources */,
@@ -295,7 +295,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		68B776520DCA9ED3ACED26E6 /* [CP] Check Pods Manifest.lock */ = {
+		7D3CB41D74160C83E1D6650C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Twitus/Pods-Twitus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Twitus/Pods-Twitus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80B5E30806C1AC5803697708 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -317,53 +339,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7BE35D06B243DB2767B14AEB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TwitusTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E275281D8B704DDE1D2193CC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Twitus/Pods-Twitus-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Twitus/Pods-Twitus-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FFDDD7D719592EA02BDB243E /* [CP] Check Pods Manifest.lock */ = {
+		A121F4C04EE6D8F67BA1CB98 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -385,6 +361,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E005CB20B7EE85C24F8F9E56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwitusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -393,7 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75D53F82225A69EA0055421F /* AppDelegate.swift in Sources */,
-				752888A6225C4C950028F0DB /* HomeDatasourceController.swift in Sources */,
+				7537662A225D92FC000FF34B /* HomeDatasourceController.swift in Sources */,
 				751100F5225A741B008E8AB2 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,7 +557,7 @@
 		};
 		75D53FA7225A69EC0055421F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9893BB3079CC41C139457415 /* Pods-Twitus.debug.xcconfig */;
+			baseConfigurationReference = F116DA44F2A17BF358F4051C /* Pods-Twitus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -579,7 +577,7 @@
 		};
 		75D53FA8225A69EC0055421F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93233DC2334DB08EC2936AF7 /* Pods-Twitus.release.xcconfig */;
+			baseConfigurationReference = B46F19F85F3A6811B73B1441 /* Pods-Twitus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -599,7 +597,7 @@
 		};
 		75D53FAA225A69EC0055421F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 134B30C9CFC468786C2E819F /* Pods-TwitusTests.debug.xcconfig */;
+			baseConfigurationReference = 3FC3EF3D41515DB9ADA9F346 /* Pods-TwitusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -621,7 +619,7 @@
 		};
 		75D53FAB225A69EC0055421F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A541BEC4B09526A3121F1F1 /* Pods-TwitusTests.release.xcconfig */;
+			baseConfigurationReference = 60CDCC6A01898E824D034E57 /* Pods-TwitusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -643,7 +641,7 @@
 		};
 		75D53FAD225A69EC0055421F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D98D0C4F07F0B31EE7A1DFB /* Pods-TwitusUITests.debug.xcconfig */;
+			baseConfigurationReference = 70DED920D8A01BD0D74E1177 /* Pods-TwitusUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -664,7 +662,7 @@
 		};
 		75D53FAE225A69EC0055421F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2AD625667DF15F56BB7576A /* Pods-TwitusUITests.release.xcconfig */;
+			baseConfigurationReference = 7634405D723A0CA7F5AB969D /* Pods-TwitusUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

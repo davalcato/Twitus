@@ -7,154 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		253527B6C6202CF0A4418B092DEB9173 /* NSMutableAttributedString+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276A74574C7182469A84B300DE457FEE /* NSMutableAttributedString+Helper.swift */; };
-		2598041A02757B0139A10F6D496F3837 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
-		25DF8F191A332BCFBB01E155E649A030 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
-		27CFBB574A3197BF3203D23D90E6128A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D732E248D21D78C21555844C509CEA33 /* SVProgressHUD.m */; };
-		28EE41BE8E6AC80F6A323C20B25D15F2 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D30B9991EEEC970165304B8A2D3D411F /* SVProgressHUD.bundle */; };
-		2D8B79F99C4E49C53C1761249E781D0C /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C39498BC836E44363594BC46AB31C /* CachedImageView.swift */; };
-		3564D856AF2F7A9F764021CEC6FAE914 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB502E2147B0243E875F1BD522E786B /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		253527B6C6202CF0A4418B092DEB9173 /* NSMutableAttributedString+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB0768EFBC137F430DF27232299BF9 /* NSMutableAttributedString+Helper.swift */; };
+		25DF8F191A332BCFBB01E155E649A030 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		2D8B79F99C4E49C53C1761249E781D0C /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4360B1C456453C888E1F54F9F415C89C /* CachedImageView.swift */; };
 		3712338D35E7909065F6E9051DDFC53C /* Pods-TwitusTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D9592634AE7E6B3565ACE76063CAB /* Pods-TwitusTests-dummy.m */; };
-		409369DC805FC32A7CDC5D54EF61941A /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9BF7C7AE7980BE6C900EA96A77F47F /* SVRadialGradientLayer.m */; };
-		46856EF274F11A3AF984AA671F0137C1 /* DiscardableImageCacheItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B303E44611F18B23C4D6F57CFAC85 /* DiscardableImageCacheItem.swift */; };
-		4AB4BD6F558C5D624003EFB7C8C6E80B /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256E4CD9A0570A60DF322A5D7085DD8B /* Datasource.swift */; };
-		5505364F7724EE6F672E7F3E9E1589DE /* DatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267BA251E1BA56A7BF942976DBCFEFA6 /* DatasourceCell.swift */; };
-		557D20A2271568C51D53CD4434AFC005 /* UIImage+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D39A992B7D76F1C99A5C2DE071AC58C /* UIImage+Helper.swift */; };
-		5AA7B06BF426EE6701B5D97FDB097923 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CC5787C4D7225262138F10874B1FB4 /* QuartzCore.framework */; };
-		6685504078E8313DC8D96F5A0EAB69A5 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 23AEEA9FD2BFA44810C9DAD75ACFB09D /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		689267FACD0ED20B104B8F5692FB7411 /* LBTAComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EECCE902A845169548FCC6965CD356 /* LBTAComponents-dummy.m */; };
-		6A93360DD056FD780109110E42A3CB23 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3AAC587E213D6DE27AE504FB649424 /* UIView+Anchors.swift */; };
-		6EB0236DC897AD1FD2862ECF4B0E62C0 /* DefaultCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5428BF22091D2A9A83F84FE3144A71 /* DefaultCells.swift */; };
-		6F7C7FB25C6203C761C862A2AB752B1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
-		7B5AC7B911E56ED85E934B242D8E1FDB /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF795EEC9E13378EF84CA93E6A936043 /* SVProgressAnimatedView.m */; };
-		832DD4D5E51982D156A8344410A1BE1F /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FECDFF5295FEE1C01DD3EE0B5D4B9943 /* SVProgressHUD-dummy.m */; };
+		43B988535E8DDD090BBE49C050F29349 /* Pods-Twitus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 803D66453554E018DBC9E3FACEFC3BFD /* Pods-Twitus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46856EF274F11A3AF984AA671F0137C1 /* DiscardableImageCacheItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821915B480E8604A31E1305BDF83BFC2 /* DiscardableImageCacheItem.swift */; };
+		4AB4BD6F558C5D624003EFB7C8C6E80B /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34D24F9E98E38B72593844081307F34 /* Datasource.swift */; };
+		5505364F7724EE6F672E7F3E9E1589DE /* DatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96DCEC8C9BFE50C958B90520557697B /* DatasourceCell.swift */; };
+		557D20A2271568C51D53CD4434AFC005 /* UIImage+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C879D225881512C39BC0A0D81CE70D /* UIImage+Helper.swift */; };
+		689267FACD0ED20B104B8F5692FB7411 /* LBTAComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B5D8569021AE74A58DDDF786A7AA4A /* LBTAComponents-dummy.m */; };
+		6A93360DD056FD780109110E42A3CB23 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE53B9D409FB8683A0FE45FACB26223 /* UIView+Anchors.swift */; };
+		6EB0236DC897AD1FD2862ECF4B0E62C0 /* DefaultCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DF23C1F5ADDE9646212C5C473766E8 /* DefaultCells.swift */; };
+		6F7C7FB25C6203C761C862A2AB752B1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		8EF64908CD5D87BBBAFF8558F7820868 /* Pods-TwitusTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E01C91E33377820B392682BCF3973C26 /* Pods-TwitusTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D8EE4A55572205D1FAAC748951607E5 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A61030C877E30012A427B4CFFD15D197 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1F9743F2E0264005CDBDB8CD195A0C1 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BEBD5BEE1B3CD56A770BB0B349C244A /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A226BC91822BB2B121D75879BAE2E6EB /* Pods-TwitusUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FF621BC8A641A6D387E248FCA1FFA3 /* Pods-TwitusUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A613AB34F87C770A84A78B09C8EC7E17 /* DatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA731AD6A193A0BEB1B3CB741235698 /* DatasourceController.swift */; };
-		AFC23B9705394D19E5AF617081188815 /* LBTAComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD0BAF81A119458B96D345CEDCE4AB6 /* LBTAComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA0A66A26BA74F25A85DE6A30940ED7A /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D252CBCD3555924854181E970B41B8C /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD111E9795B12D13D3245BA6242ABDE8 /* UIButton+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375077D1798CAADD9B3FB3018ED00874 /* UIButton+Helper.swift */; };
-		D51C9C5BA040CAC5BCDE87677DEF7B67 /* LBTALabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A9DFB01BBF28C3457AC62077F2132 /* LBTALabel.swift */; };
-		D80CD35166C2F2A918C88FC07531A917 /* Pods-Twitus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD24299FA628A449789A2D35714B882 /* Pods-Twitus-dummy.m */; };
-		D8C7E1B3B430E2DF4F180268DF866C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
-		E3C22FFBE55338ECAF24982AB07F27F1 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 495D40E63D7B2CE9F72F0F7A11AEA6FC /* SVIndefiniteAnimatedView.m */; };
-		EB861DB70F0E1823B0DC17815E2E92E5 /* Pods-Twitus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 803D66453554E018DBC9E3FACEFC3BFD /* Pods-Twitus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6E6CD98874FF8E08E506D25A255063C /* LBTATextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3D520D9B03F7422EF9C118E017745E /* LBTATextView.swift */; };
-		F779793E257A6233E147EDBF6E683F87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
-		F8F820FB40EE9A5855010BFB3B37B59C /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCE9A25F4DAC0440BFB3910B74D96E3 /* UIColor+Helper.swift */; };
+		A613AB34F87C770A84A78B09C8EC7E17 /* DatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18246907CAF236A895F12CD0E8B1A59 /* DatasourceController.swift */; };
+		A68B8B0EB47A828B63619D3F08093D51 /* Pods-Twitus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD24299FA628A449789A2D35714B882 /* Pods-Twitus-dummy.m */; };
+		AFC23B9705394D19E5AF617081188815 /* LBTAComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B24F9A84BEA86E84208722FB1E551D24 /* LBTAComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA9A81161896AA90B4DEDBB76AACA288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CD111E9795B12D13D3245BA6242ABDE8 /* UIButton+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75607F18A0C788C05145D7EEC6ED8AE2 /* UIButton+Helper.swift */; };
+		D51C9C5BA040CAC5BCDE87677DEF7B67 /* LBTALabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C1CECCFCD91395923836203F0A12DF /* LBTALabel.swift */; };
+		D8C7E1B3B430E2DF4F180268DF866C6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F6E6CD98874FF8E08E506D25A255063C /* LBTATextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5DC43B824295DBDE77853C4E9113B /* LBTATextView.swift */; };
+		F8F820FB40EE9A5855010BFB3B37B59C /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93259568C25461723688A15B0655FC /* UIColor+Helper.swift */; };
 		FA8435D8AACC0A29DB0518E7E69B9060 /* Pods-TwitusUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 799DE46D2555B1D881698691A01EB935 /* Pods-TwitusUITests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3C0ED6AF9A09515CADFE2762A195990C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D472587A912653FA0CA9BB9A2AB42E8;
-			remoteInfo = "Pods-Twitus";
-		};
-		A361C30489A42DB927E79A72A8424E9B /* PBXContainerItemProxy */ = {
+		3B8DE7A6C028A6B8FF532ACC4890E42B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0D3731E9D57E3EB3E54C28C2E07CF682;
 			remoteInfo = LBTAComponents;
 		};
-		BA5040479513A1EF65E91E1C380B6025 /* PBXContainerItemProxy */ = {
+		3C0ED6AF9A09515CADFE2762A195990C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1A499E6AC25E1059EC91D964C14BBD21;
-			remoteInfo = SVProgressHUD;
+			remoteGlobalIDString = E386898960BBCF5DA9EB4025F855CFCD;
+			remoteInfo = "Pods-Twitus";
 		};
 		C48B76588275D10444CCF3946A278C65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5D472587A912653FA0CA9BB9A2AB42E8;
+			remoteGlobalIDString = E386898960BBCF5DA9EB4025F855CFCD;
 			remoteInfo = "Pods-Twitus";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0334E48C94C7AF5DEBE20E0CF0487EB7 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		07694BEC1799FC00C26881B1D2E7B3EB /* LBTAComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBTAComponents.framework; path = LBTAComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B5D8569021AE74A58DDDF786A7AA4A /* LBTAComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBTAComponents-dummy.m"; sourceTree = "<group>"; };
 		0B22FBD444D167A61F1C322C2311514E /* Pods-Twitus-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Twitus-acknowledgements.markdown"; sourceTree = "<group>"; };
-		17EECCE902A845169548FCC6965CD356 /* LBTAComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBTAComponents-dummy.m"; sourceTree = "<group>"; };
 		182D9592634AE7E6B3565ACE76063CAB /* Pods-TwitusTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitusTests-dummy.m"; sourceTree = "<group>"; };
-		23AEEA9FD2BFA44810C9DAD75ACFB09D /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		23B7AAF763D53D25A0536D1348E8C65E /* LBTAComponents.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBTAComponents.xcconfig; sourceTree = "<group>"; };
-		256E4CD9A0570A60DF322A5D7085DD8B /* Datasource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Datasource.swift; path = LBTAComponents/Classes/Datasource.swift; sourceTree = "<group>"; };
-		267BA251E1BA56A7BF942976DBCFEFA6 /* DatasourceCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatasourceCell.swift; path = LBTAComponents/Classes/DatasourceCell.swift; sourceTree = "<group>"; };
-		276A74574C7182469A84B300DE457FEE /* NSMutableAttributedString+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSMutableAttributedString+Helper.swift"; path = "LBTAComponents/Classes/NSMutableAttributedString+Helper.swift"; sourceTree = "<group>"; };
-		2ABFDCAE0B33F28F4E557A5C9270A181 /* LBTAComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTAComponents-prefix.pch"; sourceTree = "<group>"; };
-		2C4A9DFB01BBF28C3457AC62077F2132 /* LBTALabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTALabel.swift; path = LBTAComponents/Classes/LBTALabel.swift; sourceTree = "<group>"; };
-		2D3D520D9B03F7422EF9C118E017745E /* LBTATextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTATextView.swift; path = LBTAComponents/Classes/LBTATextView.swift; sourceTree = "<group>"; };
+		253A5072E95441832EDB6C224458FC45 /* Pods_Twitus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Twitus.framework; path = "Pods-Twitus.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C93259568C25461723688A15B0655FC /* UIColor+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Helper.swift"; path = "LBTAComponents/Classes/UIColor+Helper.swift"; sourceTree = "<group>"; };
 		32CA4BF34CA17599774F9A97C558FBED /* Pods-Twitus-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Twitus-acknowledgements.plist"; sourceTree = "<group>"; };
-		375077D1798CAADD9B3FB3018ED00874 /* UIButton+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Helper.swift"; path = "LBTAComponents/Classes/UIButton+Helper.swift"; sourceTree = "<group>"; };
-		37F9DC9B454EDEEDAB733A69A8AFDAB4 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		3B4905E6AD47A132B48A9AD7C9C157F3 /* Pods-Twitus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Twitus.debug.xcconfig"; sourceTree = "<group>"; };
-		3D788C7C962FE82AD95B25C10CA270C5 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
-		495D40E63D7B2CE9F72F0F7A11AEA6FC /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		4360B1C456453C888E1F54F9F415C89C /* CachedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedImageView.swift; path = LBTAComponents/Classes/CachedImageView.swift; sourceTree = "<group>"; };
+		47C1CECCFCD91395923836203F0A12DF /* LBTALabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTALabel.swift; path = LBTAComponents/Classes/LBTALabel.swift; sourceTree = "<group>"; };
+		47C879D225881512C39BC0A0D81CE70D /* UIImage+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Helper.swift"; path = "LBTAComponents/Classes/UIImage+Helper.swift"; sourceTree = "<group>"; };
 		4A55CD222625551FBF493A10BBACB386 /* Pods-TwitusUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitusUITests.modulemap"; sourceTree = "<group>"; };
-		4CD0BAF81A119458B96D345CEDCE4AB6 /* LBTAComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTAComponents-umbrella.h"; sourceTree = "<group>"; };
-		517E1BCF90F229FF85E1582620CFA734 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		5246356580B098167572C888CA354105 /* Pods-TwitusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitusTests.release.xcconfig"; sourceTree = "<group>"; };
-		5DA731AD6A193A0BEB1B3CB741235698 /* DatasourceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatasourceController.swift; path = LBTAComponents/Classes/DatasourceController.swift; sourceTree = "<group>"; };
-		5F5428BF22091D2A9A83F84FE3144A71 /* DefaultCells.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultCells.swift; path = LBTAComponents/Classes/DefaultCells.swift; sourceTree = "<group>"; };
+		576CAD5A2526DB885AA47716704CA4AD /* LBTAComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTAComponents-prefix.pch"; sourceTree = "<group>"; };
+		62F5DC43B824295DBDE77853C4E9113B /* LBTATextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTATextView.swift; path = LBTAComponents/Classes/LBTATextView.swift; sourceTree = "<group>"; };
 		6D562422827B2BDA93C849ED709A2EEF /* Pods-TwitusTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitusTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6D9BF7C7AE7980BE6C900EA96A77F47F /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		7282CE4C8F8D986CE8635D0D165847DC /* Pods-Twitus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Twitus.modulemap"; sourceTree = "<group>"; };
-		73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7672FB43A139841A1F9D4F30DE9129D4 /* LBTAComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LBTAComponents-Info.plist"; sourceTree = "<group>"; };
+		75607F18A0C788C05145D7EEC6ED8AE2 /* UIButton+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Helper.swift"; path = "LBTAComponents/Classes/UIButton+Helper.swift"; sourceTree = "<group>"; };
 		77B8F629BD3DE3B4A46A5D416F21EAEC /* Pods-TwitusTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitusTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		799DE46D2555B1D881698691A01EB935 /* Pods-TwitusUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitusUITests-dummy.m"; sourceTree = "<group>"; };
-		7BEBD5BEE1B3CD56A770BB0B349C244A /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		7D39A992B7D76F1C99A5C2DE071AC58C /* UIImage+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Helper.swift"; path = "LBTAComponents/Classes/UIImage+Helper.swift"; sourceTree = "<group>"; };
+		7C47ABAAD8E1C48B94D0D9F2CE5137E7 /* LBTAComponents.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBTAComponents.xcconfig; sourceTree = "<group>"; };
 		803D66453554E018DBC9E3FACEFC3BFD /* Pods-Twitus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Twitus-umbrella.h"; sourceTree = "<group>"; };
+		821915B480E8604A31E1305BDF83BFC2 /* DiscardableImageCacheItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscardableImageCacheItem.swift; path = LBTAComponents/Classes/DiscardableImageCacheItem.swift; sourceTree = "<group>"; };
 		8285FB03A284A940517CB9C4643594D5 /* Pods-Twitus-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Twitus-frameworks.sh"; sourceTree = "<group>"; };
 		82BC3613E320851B902036A02BAC11B0 /* Pods-TwitusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitusUITests.release.xcconfig"; sourceTree = "<group>"; };
 		883BB6596F14D56764E4D5AD22CD830E /* Pods-TwitusTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitusTests.modulemap"; sourceTree = "<group>"; };
-		8A4D6E0550B363A10AEEABD2BA8D8982 /* Pods_TwitusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitusUITests.framework; path = "Pods-TwitusUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D0C39498BC836E44363594BC46AB31C /* CachedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedImageView.swift; path = LBTAComponents/Classes/CachedImageView.swift; sourceTree = "<group>"; };
 		936078BB5ED54D43B77C0A8FC4EAC9DF /* Pods-TwitusTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitusTests-Info.plist"; sourceTree = "<group>"; };
-		93CC5787C4D7225262138F10874B1FB4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		94DA37FD29B231E15F5C08AD94FEF8F7 /* Pods-Twitus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Twitus.release.xcconfig"; sourceTree = "<group>"; };
-		96CBF50B572453F63159562054D9FA52 /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		9D252CBCD3555924854181E970B41B8C /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		9D2ABCA04204CA8327B2F309E3287FD4 /* LBTAComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBTAComponents.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A61030C877E30012A427B4CFFD15D197 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		AA3AAC587E213D6DE27AE504FB649424 /* UIView+Anchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Anchors.swift"; path = "LBTAComponents/Classes/UIView+Anchors.swift"; sourceTree = "<group>"; };
-		ABCE9A25F4DAC0440BFB3910B74D96E3 /* UIColor+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Helper.swift"; path = "LBTAComponents/Classes/UIColor+Helper.swift"; sourceTree = "<group>"; };
-		AF795EEC9E13378EF84CA93E6A936043 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		B9A7AEF0549076010FAA4BD88C69B49A /* Pods_Twitus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Twitus.framework; path = "Pods-Twitus.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE53B9D409FB8683A0FE45FACB26223 /* UIView+Anchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Anchors.swift"; path = "LBTAComponents/Classes/UIView+Anchors.swift"; sourceTree = "<group>"; };
+		A0DF23C1F5ADDE9646212C5C473766E8 /* DefaultCells.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultCells.swift; path = LBTAComponents/Classes/DefaultCells.swift; sourceTree = "<group>"; };
+		AB67BE5EBDACD5D77EB587E6127ED1FC /* Pods_TwitusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitusTests.framework; path = "Pods-TwitusTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24F9A84BEA86E84208722FB1E551D24 /* LBTAComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTAComponents-umbrella.h"; sourceTree = "<group>"; };
+		B34D24F9E98E38B72593844081307F34 /* Datasource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Datasource.swift; path = LBTAComponents/Classes/Datasource.swift; sourceTree = "<group>"; };
+		B8DF55A4A7C034122D331E513F9E12BA /* Pods_TwitusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitusUITests.framework; path = "Pods-TwitusUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BB46AC980634582AC2C36F08B141AD /* Pods-Twitus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Twitus-Info.plist"; sourceTree = "<group>"; };
-		BBB502E2147B0243E875F1BD522E786B /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		BCD24299FA628A449789A2D35714B882 /* Pods-Twitus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Twitus-dummy.m"; sourceTree = "<group>"; };
-		C1A20E4C7C433CF309B85EDBBBFB38E3 /* Pods_TwitusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitusTests.framework; path = "Pods-TwitusTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCC98F2F406841BFDF2AF60DD056A8D /* LBTAComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBTAComponents.framework; path = LBTAComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EAEA1EA97E3FB0978E16B3FA35426B /* LBTAComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LBTAComponents-Info.plist"; sourceTree = "<group>"; };
+		C3CB0768EFBC137F430DF27232299BF9 /* NSMutableAttributedString+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSMutableAttributedString+Helper.swift"; path = "LBTAComponents/Classes/NSMutableAttributedString+Helper.swift"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CCFC4276D6EDDF576BCD6561788BF255 /* Pods-TwitusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitusTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CD5B303E44611F18B23C4D6F57CFAC85 /* DiscardableImageCacheItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscardableImageCacheItem.swift; path = LBTAComponents/Classes/DiscardableImageCacheItem.swift; sourceTree = "<group>"; };
 		D0FF621BC8A641A6D387E248FCA1FFA3 /* Pods-TwitusUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitusUITests-umbrella.h"; sourceTree = "<group>"; };
-		D30B9991EEEC970165304B8A2D3D411F /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		D732E248D21D78C21555844C509CEA33 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		DA30CDCDE9F4F1B4E36361700B65B754 /* Pods-TwitusUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitusUITests-Info.plist"; sourceTree = "<group>"; };
-		DCBA4B18FB9F3E63D3B3A40F0611FDE8 /* LBTAComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBTAComponents.modulemap; sourceTree = "<group>"; };
 		E01C91E33377820B392682BCF3973C26 /* Pods-TwitusTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitusTests-umbrella.h"; sourceTree = "<group>"; };
+		E18246907CAF236A895F12CD0E8B1A59 /* DatasourceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatasourceController.swift; path = LBTAComponents/Classes/DatasourceController.swift; sourceTree = "<group>"; };
 		E8800E1C904BC8C5CE5FDDB312BA27CA /* Pods-TwitusUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitusUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F96DCEC8C9BFE50C958B90520557697B /* DatasourceCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatasourceCell.swift; path = LBTAComponents/Classes/DatasourceCell.swift; sourceTree = "<group>"; };
 		FBDC2F664A84AD34E548CF32A32005EA /* Pods-TwitusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitusUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FCD41953A1280A928AF79CF463CC8B21 /* Pods-TwitusUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitusUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FECDFF5295FEE1C01DD3EE0B5D4B9943 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01DD229F718C7DF1733D768FC47F1EBB /* Frameworks */ = {
+		15DB6D0E2ED20012CA56E7202F4B71BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2598041A02757B0139A10F6D496F3837 /* Foundation.framework in Frameworks */,
-				5AA7B06BF426EE6701B5D97FDB097923 /* QuartzCore.framework in Frameworks */,
+				BA9A81161896AA90B4DEDBB76AACA288 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,35 +144,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C27D1FA4DCD6437892DB58B2C945B339 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F779793E257A6233E147EDBF6E683F87 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03F5A314FC72C05040F023D2E89F7E44 /* SVProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				BBB502E2147B0243E875F1BD522E786B /* SVIndefiniteAnimatedView.h */,
-				495D40E63D7B2CE9F72F0F7A11AEA6FC /* SVIndefiniteAnimatedView.m */,
-				7BEBD5BEE1B3CD56A770BB0B349C244A /* SVProgressAnimatedView.h */,
-				AF795EEC9E13378EF84CA93E6A936043 /* SVProgressAnimatedView.m */,
-				23AEEA9FD2BFA44810C9DAD75ACFB09D /* SVProgressHUD.h */,
-				D732E248D21D78C21555844C509CEA33 /* SVProgressHUD.m */,
-				A61030C877E30012A427B4CFFD15D197 /* SVRadialGradientLayer.h */,
-				6D9BF7C7AE7980BE6C900EA96A77F47F /* SVRadialGradientLayer.m */,
-				5476A606BAB557C3C631FDB709836E59 /* Resources */,
-				2D91255E0499029E4E56F94829EDD7A2 /* Support Files */,
-			);
-			name = SVProgressHUD;
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
 		05866CBBDAB85B4AFF8AA31AA0B2D167 /* Pods-TwitusTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,34 +163,26 @@
 			path = "Target Support Files/Pods-TwitusTests";
 			sourceTree = "<group>";
 		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		36F0A0684EF83D00A22AC52DD73901DB /* LBTAComponents */ = {
 			isa = PBXGroup;
 			children = (
-				882A293BD79D4DA49D52A901C0171109 /* iOS */,
+				4360B1C456453C888E1F54F9F415C89C /* CachedImageView.swift */,
+				B34D24F9E98E38B72593844081307F34 /* Datasource.swift */,
+				F96DCEC8C9BFE50C958B90520557697B /* DatasourceCell.swift */,
+				E18246907CAF236A895F12CD0E8B1A59 /* DatasourceController.swift */,
+				A0DF23C1F5ADDE9646212C5C473766E8 /* DefaultCells.swift */,
+				821915B480E8604A31E1305BDF83BFC2 /* DiscardableImageCacheItem.swift */,
+				47C1CECCFCD91395923836203F0A12DF /* LBTALabel.swift */,
+				62F5DC43B824295DBDE77853C4E9113B /* LBTATextView.swift */,
+				C3CB0768EFBC137F430DF27232299BF9 /* NSMutableAttributedString+Helper.swift */,
+				75607F18A0C788C05145D7EEC6ED8AE2 /* UIButton+Helper.swift */,
+				2C93259568C25461723688A15B0655FC /* UIColor+Helper.swift */,
+				47C879D225881512C39BC0A0D81CE70D /* UIImage+Helper.swift */,
+				9FE53B9D409FB8683A0FE45FACB26223 /* UIView+Anchors.swift */,
+				E75DB9CBD269D105570522CC2BF894F3 /* Support Files */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2D91255E0499029E4E56F94829EDD7A2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				517E1BCF90F229FF85E1582620CFA734 /* SVProgressHUD.modulemap */,
-				3D788C7C962FE82AD95B25C10CA270C5 /* SVProgressHUD.xcconfig */,
-				FECDFF5295FEE1C01DD3EE0B5D4B9943 /* SVProgressHUD-dummy.m */,
-				96CBF50B572453F63159562054D9FA52 /* SVProgressHUD-Info.plist */,
-				37F9DC9B454EDEEDAB733A69A8AFDAB4 /* SVProgressHUD-prefix.pch */,
-				9D252CBCD3555924854181E970B41B8C /* SVProgressHUD-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
-			sourceTree = "<group>";
-		};
-		5476A606BAB557C3C631FDB709836E59 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D30B9991EEEC970165304B8A2D3D411F /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
+			name = LBTAComponents;
+			path = LBTAComponents;
 			sourceTree = "<group>";
 		};
 		5982ACC4B0AEAC2130DE1428A4E50192 /* Targets Support Files */ = {
@@ -284,69 +212,39 @@
 			path = "Target Support Files/Pods-Twitus";
 			sourceTree = "<group>";
 		};
-		882A293BD79D4DA49D52A901C0171109 /* iOS */ = {
+		83F69D47A99B1D4E094E8DA33F385F9A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */,
-				93CC5787C4D7225262138F10874B1FB4 /* QuartzCore.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		96E2D0E8E9AFC3CFCE3875BC3E92845E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C5A939372AC3DCE761723B80905808A2 /* LBTAComponents */,
-				03F5A314FC72C05040F023D2E89F7E44 /* SVProgressHUD */,
+				36F0A0684EF83D00A22AC52DD73901DB /* LBTAComponents */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		B0B58AE69B8EB4955070DD312596AA26 /* Support Files */ = {
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DCBA4B18FB9F3E63D3B3A40F0611FDE8 /* LBTAComponents.modulemap */,
-				23B7AAF763D53D25A0536D1348E8C65E /* LBTAComponents.xcconfig */,
-				17EECCE902A845169548FCC6965CD356 /* LBTAComponents-dummy.m */,
-				7672FB43A139841A1F9D4F30DE9129D4 /* LBTAComponents-Info.plist */,
-				2ABFDCAE0B33F28F4E557A5C9270A181 /* LBTAComponents-prefix.pch */,
-				4CD0BAF81A119458B96D345CEDCE4AB6 /* LBTAComponents-umbrella.h */,
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/LBTAComponents";
-			sourceTree = "<group>";
-		};
-		C5A939372AC3DCE761723B80905808A2 /* LBTAComponents */ = {
-			isa = PBXGroup;
-			children = (
-				8D0C39498BC836E44363594BC46AB31C /* CachedImageView.swift */,
-				256E4CD9A0570A60DF322A5D7085DD8B /* Datasource.swift */,
-				267BA251E1BA56A7BF942976DBCFEFA6 /* DatasourceCell.swift */,
-				5DA731AD6A193A0BEB1B3CB741235698 /* DatasourceController.swift */,
-				5F5428BF22091D2A9A83F84FE3144A71 /* DefaultCells.swift */,
-				CD5B303E44611F18B23C4D6F57CFAC85 /* DiscardableImageCacheItem.swift */,
-				2C4A9DFB01BBF28C3457AC62077F2132 /* LBTALabel.swift */,
-				2D3D520D9B03F7422EF9C118E017745E /* LBTATextView.swift */,
-				276A74574C7182469A84B300DE457FEE /* NSMutableAttributedString+Helper.swift */,
-				375077D1798CAADD9B3FB3018ED00874 /* UIButton+Helper.swift */,
-				ABCE9A25F4DAC0440BFB3910B74D96E3 /* UIColor+Helper.swift */,
-				7D39A992B7D76F1C99A5C2DE071AC58C /* UIImage+Helper.swift */,
-				AA3AAC587E213D6DE27AE504FB649424 /* UIView+Anchors.swift */,
-				B0B58AE69B8EB4955070DD312596AA26 /* Support Files */,
-			);
-			name = LBTAComponents;
-			path = LBTAComponents;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				96E2D0E8E9AFC3CFCE3875BC3E92845E /* Pods */,
-				FC54B47F66725224C2A448BDF17661E1 /* Products */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				83F69D47A99B1D4E094E8DA33F385F9A /* Pods */,
+				FE3FEE7D5C1D82CBB8F6F6089CBE8B00 /* Products */,
 				5982ACC4B0AEAC2130DE1428A4E50192 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DE69AC52DACD99DA49CD606CC7EEFD07 /* Pods-TwitusUITests */ = {
@@ -365,14 +263,27 @@
 			path = "Target Support Files/Pods-TwitusUITests";
 			sourceTree = "<group>";
 		};
-		FC54B47F66725224C2A448BDF17661E1 /* Products */ = {
+		E75DB9CBD269D105570522CC2BF894F3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				07694BEC1799FC00C26881B1D2E7B3EB /* LBTAComponents.framework */,
-				B9A7AEF0549076010FAA4BD88C69B49A /* Pods_Twitus.framework */,
-				C1A20E4C7C433CF309B85EDBBBFB38E3 /* Pods_TwitusTests.framework */,
-				8A4D6E0550B363A10AEEABD2BA8D8982 /* Pods_TwitusUITests.framework */,
-				0334E48C94C7AF5DEBE20E0CF0487EB7 /* SVProgressHUD.framework */,
+				9D2ABCA04204CA8327B2F309E3287FD4 /* LBTAComponents.modulemap */,
+				7C47ABAAD8E1C48B94D0D9F2CE5137E7 /* LBTAComponents.xcconfig */,
+				09B5D8569021AE74A58DDDF786A7AA4A /* LBTAComponents-dummy.m */,
+				C0EAEA1EA97E3FB0978E16B3FA35426B /* LBTAComponents-Info.plist */,
+				576CAD5A2526DB885AA47716704CA4AD /* LBTAComponents-prefix.pch */,
+				B24F9A84BEA86E84208722FB1E551D24 /* LBTAComponents-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LBTAComponents";
+			sourceTree = "<group>";
+		};
+		FE3FEE7D5C1D82CBB8F6F6089CBE8B00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDCC98F2F406841BFDF2AF60DD056A8D /* LBTAComponents.framework */,
+				253A5072E95441832EDB6C224458FC45 /* Pods_Twitus.framework */,
+				AB67BE5EBDACD5D77EB587E6127ED1FC /* Pods_TwitusTests.framework */,
+				B8DF55A4A7C034122D331E513F9E12BA /* Pods_TwitusUITests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -380,6 +291,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1605605CBA807D3D8ACE00199BAEB7E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B988535E8DDD090BBE49C050F29349 /* Pods-Twitus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B17E05B0F59B31855327F72313B3957 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,31 +315,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95028129699B0DA72A7E759F1343867D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB861DB70F0E1823B0DC17815E2E92E5 /* Pods-Twitus-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A57E7B2733D5D4BF6CA427CAEFD89911 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AFC23B9705394D19E5AF617081188815 /* LBTAComponents-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F70E6D3B3F85619F4B05AF5EB3451389 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3564D856AF2F7A9F764021CEC6FAE914 /* SVIndefiniteAnimatedView.h in Headers */,
-				A1F9743F2E0264005CDBDB8CD195A0C1 /* SVProgressAnimatedView.h in Headers */,
-				CA0A66A26BA74F25A85DE6A30940ED7A /* SVProgressHUD-umbrella.h in Headers */,
-				6685504078E8313DC8D96F5A0EAB69A5 /* SVProgressHUD.h in Headers */,
-				9D8EE4A55572205D1FAAC748951607E5 /* SVRadialGradientLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,25 +341,7 @@
 			);
 			name = LBTAComponents;
 			productName = LBTAComponents;
-			productReference = 07694BEC1799FC00C26881B1D2E7B3EB /* LBTAComponents.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		1A499E6AC25E1059EC91D964C14BBD21 /* SVProgressHUD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 751779395B3CDD488C58713B2AF0821A /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
-			buildPhases = (
-				F70E6D3B3F85619F4B05AF5EB3451389 /* Headers */,
-				7A7C2F3CA6DBB74ADB0FC2E958119AC9 /* Sources */,
-				01DD229F718C7DF1733D768FC47F1EBB /* Frameworks */,
-				02E173B3948209C73BB474BEEDAFDC68 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SVProgressHUD;
-			productName = SVProgressHUD;
-			productReference = 0334E48C94C7AF5DEBE20E0CF0487EB7 /* SVProgressHUD.framework */;
+			productReference = BDCC98F2F406841BFDF2AF60DD056A8D /* LBTAComponents.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1DAAB8A684276C449AA5AE7D970024D5 /* Pods-TwitusTests */ = {
@@ -479,7 +360,7 @@
 			);
 			name = "Pods-TwitusTests";
 			productName = "Pods-TwitusTests";
-			productReference = C1A20E4C7C433CF309B85EDBBBFB38E3 /* Pods_TwitusTests.framework */;
+			productReference = AB67BE5EBDACD5D77EB587E6127ED1FC /* Pods_TwitusTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		56159134D4106B71872DD5AB5D1C487E /* Pods-TwitusUITests */ = {
@@ -498,27 +379,26 @@
 			);
 			name = "Pods-TwitusUITests";
 			productName = "Pods-TwitusUITests";
-			productReference = 8A4D6E0550B363A10AEEABD2BA8D8982 /* Pods_TwitusUITests.framework */;
+			productReference = B8DF55A4A7C034122D331E513F9E12BA /* Pods_TwitusUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5D472587A912653FA0CA9BB9A2AB42E8 /* Pods-Twitus */ = {
+		E386898960BBCF5DA9EB4025F855CFCD /* Pods-Twitus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9208760FC3B296E9D12D59724F50393 /* Build configuration list for PBXNativeTarget "Pods-Twitus" */;
+			buildConfigurationList = 9B925659EB120681749C4696E8F3AA2F /* Build configuration list for PBXNativeTarget "Pods-Twitus" */;
 			buildPhases = (
-				95028129699B0DA72A7E759F1343867D /* Headers */,
-				E95D6F19E9417491131C3455B4B6B8D5 /* Sources */,
-				C27D1FA4DCD6437892DB58B2C945B339 /* Frameworks */,
-				17288A493578DC3B92B6BD04C4CC5371 /* Resources */,
+				1605605CBA807D3D8ACE00199BAEB7E8 /* Headers */,
+				0F0FFEBA2A2E4D7D6BBFEBBB10C851DE /* Sources */,
+				15DB6D0E2ED20012CA56E7202F4B71BC /* Frameworks */,
+				2973138B6E3AEF4D5213768F03B38F63 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				73F3A695D76A04B812F8751DF538C588 /* PBXTargetDependency */,
-				2D6B06E361529E9BBF69274ACD3FAEF4 /* PBXTargetDependency */,
+				3BAF3C7B4D8AB5F277F05964A6D22E5B /* PBXTargetDependency */,
 			);
 			name = "Pods-Twitus";
 			productName = "Pods-Twitus";
-			productReference = B9A7AEF0549076010FAA4BD88C69B49A /* Pods_Twitus.framework */;
+			productReference = 253A5072E95441832EDB6C224458FC45 /* Pods_Twitus.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -538,28 +418,19 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = FC54B47F66725224C2A448BDF17661E1 /* Products */;
+			productRefGroup = FE3FEE7D5C1D82CBB8F6F6089CBE8B00 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0D3731E9D57E3EB3E54C28C2E07CF682 /* LBTAComponents */,
-				5D472587A912653FA0CA9BB9A2AB42E8 /* Pods-Twitus */,
+				E386898960BBCF5DA9EB4025F855CFCD /* Pods-Twitus */,
 				1DAAB8A684276C449AA5AE7D970024D5 /* Pods-TwitusTests */,
 				56159134D4106B71872DD5AB5D1C487E /* Pods-TwitusUITests */,
-				1A499E6AC25E1059EC91D964C14BBD21 /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		02E173B3948209C73BB474BEEDAFDC68 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28EE41BE8E6AC80F6A323C20B25D15F2 /* SVProgressHUD.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1538BCFBE887F31E7114CB0C9B22419D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -567,7 +438,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		17288A493578DC3B92B6BD04C4CC5371 /* Resources */ = {
+		2973138B6E3AEF4D5213768F03B38F63 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -591,6 +462,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0F0FFEBA2A2E4D7D6BBFEBBB10C851DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68B8B0EB47A828B63619D3F08093D51 /* Pods-Twitus-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4049D9E4B1E3D492FD090DB872DFD8B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -599,31 +478,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A7C2F3CA6DBB74ADB0FC2E958119AC9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3C22FFBE55338ECAF24982AB07F27F1 /* SVIndefiniteAnimatedView.m in Sources */,
-				7B5AC7B911E56ED85E934B242D8E1FDB /* SVProgressAnimatedView.m in Sources */,
-				832DD4D5E51982D156A8344410A1BE1F /* SVProgressHUD-dummy.m in Sources */,
-				27CFBB574A3197BF3203D23D90E6128A /* SVProgressHUD.m in Sources */,
-				409369DC805FC32A7CDC5D54EF61941A /* SVRadialGradientLayer.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DB768129FDBCD588CA0662C74370C016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FA8435D8AACC0A29DB0518E7E69B9060 /* Pods-TwitusUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E95D6F19E9417491131C3455B4B6B8D5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D80CD35166C2F2A918C88FC07531A917 /* Pods-Twitus-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,28 +510,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2D6B06E361529E9BBF69274ACD3FAEF4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 1A499E6AC25E1059EC91D964C14BBD21 /* SVProgressHUD */;
-			targetProxy = BA5040479513A1EF65E91E1C380B6025 /* PBXContainerItemProxy */;
-		};
-		73F3A695D76A04B812F8751DF538C588 /* PBXTargetDependency */ = {
+		3BAF3C7B4D8AB5F277F05964A6D22E5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LBTAComponents;
 			target = 0D3731E9D57E3EB3E54C28C2E07CF682 /* LBTAComponents */;
-			targetProxy = A361C30489A42DB927E79A72A8424E9B /* PBXContainerItemProxy */;
+			targetProxy = 3B8DE7A6C028A6B8FF532ACC4890E42B /* PBXContainerItemProxy */;
 		};
 		B72ADD2C9657E6AAA26B7358B0C3D13B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Twitus";
-			target = 5D472587A912653FA0CA9BB9A2AB42E8 /* Pods-Twitus */;
+			target = E386898960BBCF5DA9EB4025F855CFCD /* Pods-Twitus */;
 			targetProxy = 3C0ED6AF9A09515CADFE2762A195990C /* PBXContainerItemProxy */;
 		};
 		E637906C355B863B790F2B7A82E15678 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Twitus";
-			target = 5D472587A912653FA0CA9BB9A2AB42E8 /* Pods-Twitus */;
+			target = E386898960BBCF5DA9EB4025F855CFCD /* Pods-Twitus */;
 			targetProxy = C48B76588275D10444CCF3946A278C65 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -680,7 +533,7 @@
 /* Begin XCBuildConfiguration section */
 		015FA7ADB45D28764EEBAA57DD18E206 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23B7AAF763D53D25A0536D1348E8C65E /* LBTAComponents.xcconfig */;
+			baseConfigurationReference = 7C47ABAAD8E1C48B94D0D9F2CE5137E7 /* LBTAComponents.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -703,79 +556,6 @@
 				MODULEMAP_FILE = "Target Support Files/LBTAComponents/LBTAComponents.modulemap";
 				PRODUCT_MODULE_NAME = LBTAComponents;
 				PRODUCT_NAME = LBTAComponents;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		192E6C8DA5F73BB87EF0751B355E1CBB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4905E6AD47A132B48A9AD7C9C157F3 /* Pods-Twitus.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Twitus/Pods-Twitus-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Twitus/Pods-Twitus.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		455498D003A4A8A68AF9851F33B33DFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D788C7C962FE82AD95B25C10CA270C5 /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = SVProgressHUD;
-				PRODUCT_NAME = SVProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -863,6 +643,83 @@
 			};
 			name = Debug;
 		};
+		785C71C076F05721B68572870715D9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4905E6AD47A132B48A9AD7C9C157F3 /* Pods-Twitus.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Twitus/Pods-Twitus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Twitus/Pods-Twitus.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A561D359A9E80ACB96F24C095D85B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94DA37FD29B231E15F5C08AD94FEF8F7 /* Pods-Twitus.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Twitus/Pods-Twitus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Twitus/Pods-Twitus.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7C7D9FC81F470AE33FF86230A663FBDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -920,45 +777,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		89CFA68AE9A3A997EAAE89049A3EC762 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94DA37FD29B231E15F5C08AD94FEF8F7 /* Pods-Twitus.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Twitus/Pods-Twitus-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Twitus/Pods-Twitus.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1105,7 +923,7 @@
 		};
 		F147A5A301C8EDEC5284423BB37ECC21 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23B7AAF763D53D25A0536D1348E8C65E /* LBTAComponents.xcconfig */;
+			baseConfigurationReference = 7C47ABAAD8E1C48B94D0D9F2CE5137E7 /* LBTAComponents.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1139,42 +957,6 @@
 			};
 			name = Release;
 		};
-		F566C41AA504F0E663AE135E9236EC6E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D788C7C962FE82AD95B25C10CA270C5 /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = SVProgressHUD;
-				PRODUCT_NAME = SVProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1196,15 +978,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		751779395B3CDD488C58713B2AF0821A /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				455498D003A4A8A68AF9851F33B33DFA /* Debug */,
-				F566C41AA504F0E663AE135E9236EC6E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		90C59070F3609F45A8203409497281CC /* Build configuration list for PBXNativeTarget "LBTAComponents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1214,20 +987,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9B925659EB120681749C4696E8F3AA2F /* Build configuration list for PBXNativeTarget "Pods-Twitus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785C71C076F05721B68572870715D9CD /* Debug */,
+				7A561D359A9E80ACB96F24C095D85B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9CB8901D89FD6F06F73DD2C9E3C35D87 /* Build configuration list for PBXNativeTarget "Pods-TwitusUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6C56D842B9631ABFF74482C49FC5040C /* Debug */,
 				530E5E847B4F4DE99853481480E7B0D5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F9208760FC3B296E9D12D59724F50393 /* Build configuration list for PBXNativeTarget "Pods-Twitus" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				192E6C8DA5F73BB87EF0751B355E1CBB /* Debug */,
-				89CFA68AE9A3A997EAAE89049A3EC762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

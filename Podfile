@@ -7,11 +7,9 @@ target 'Twitus' do
 
   # Pods for Twitus
 
-    pod 'LBTAComponents', '~> 0.1.9'
-    pod 'SVProgressHUD'
-	
+    pod 'LBTAComponents'
 
-  target 'TwitusTests' do
+      target 'TwitusTests' do
     inherit! :search_paths
     # Pods for testing
   end
