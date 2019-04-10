@@ -10,6 +10,13 @@ import LBTAComponents
 
 class UserCell: DatasourceCell {
     
+    override var datasourceItem: Any? {
+        didSet {
+            nameLabel.text = datasourceItem as? String
+        }
+        
+    }
+    
     let nameLabel: UILabel = {
         let label = UILabel()
         label.text = "TEST TEST TEST"
