@@ -11,6 +11,10 @@ import LBTAComponents
 class HomeDatasource: Datasource {
     
     let words = ["user1", "user2", "user3"]
+    
+    override func item(_ indexPath: IndexPath) -> Any? {
+        return words[indexPath.item]
+    }
 
     override func numberOfItems(_ section: Int) -> Int {
         return words.count
