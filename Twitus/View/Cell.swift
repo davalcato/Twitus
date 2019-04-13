@@ -50,6 +50,12 @@ class UserCell: DatasourceCell {
         label.text = "username"
         label.backgroundColor = .purple
         return label
+    }()
+    
+    let bioTextView:  UITextView = {
+        let textView = UITextView()
+        textView.backgroundColor = .yellow
+        return textView
         
     }()
     
@@ -60,6 +66,8 @@ class UserCell: DatasourceCell {
         addSubview(profileImageView)
         addSubview(nameLabel)
         addSubview(usernameLabel)
+        addSubview(bioTextView)
+        
         
         
         profileImageView.anchor(self.topAnchor, left: self.leftAnchor, bottom: nil, right: nil, topConstant: 12
@@ -82,6 +90,13 @@ class UserCell: DatasourceCell {
             , rightConstant: 0
             , widthConstant: 0
             , heightConstant: 20)
+        
+        bioTextView.anchor(usernameLabel.bottomAnchor, left: usernameLabel.leftAnchor, bottom: self.bottomAnchor, right: self.rightAnchor, topConstant: 0
+            , leftConstant: 0
+            , bottomConstant: 0
+            , rightConstant: 0
+            , widthConstant: 0
+            , heightConstant: 0)
         
     }
 }
