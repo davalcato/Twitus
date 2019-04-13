@@ -16,6 +16,8 @@
 		75D53F8C225A69EC0055421F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D53F8A225A69EC0055421F /* LaunchScreen.storyboard */; };
 		75D53F97225A69EC0055421F /* TwitusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D53F96225A69EC0055421F /* TwitusTests.swift */; };
 		75D53FA2225A69EC0055421F /* TwitusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D53FA1225A69EC0055421F /* TwitusUITests.swift */; };
+		75DF063D226187D3000918F4 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF063C226187D3000918F4 /* Cell.swift */; };
+		75DF063F22618883000918F4 /* HomeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DF063E22618883000918F4 /* HomeDatasource.swift */; };
 		B8E11640879AF4BAB6121C5F /* Pods_TwitusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A204CA40DC7131A3E9B3226D /* Pods_TwitusTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,8 @@
 		75D53F9D225A69EC0055421F /* TwitusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D53FA1225A69EC0055421F /* TwitusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitusUITests.swift; sourceTree = "<group>"; };
 		75D53FA3225A69EC0055421F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DF063C226187D3000918F4 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		75DF063E22618883000918F4 /* HomeDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDatasource.swift; sourceTree = "<group>"; };
 		7634405D723A0CA7F5AB969D /* Pods-TwitusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitusUITests.release.xcconfig"; path = "Target Support Files/Pods-TwitusUITests/Pods-TwitusUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A204CA40DC7131A3E9B3226D /* Pods_TwitusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46F19F85F3A6811B73B1441 /* Pods-Twitus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitus.release.xcconfig"; path = "Target Support Files/Pods-Twitus/Pods-Twitus.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,9 +131,11 @@
 		75D53F80225A69EA0055421F /* Twitus */ = {
 			isa = PBXGroup;
 			children = (
+				75DF063B226187A9000918F4 /* View */,
+				75DF063A22618790000918F4 /* Model */,
+				75DF063922618787000918F4 /* Controller */,
 				75D53F81225A69EA0055421F /* AppDelegate.swift */,
 				751100F4225A741B008E8AB2 /* HomeController.swift */,
-				75376629225D92FC000FF34B /* HomeDatasourceController.swift */,
 				75D53F88225A69EC0055421F /* Assets.xcassets */,
 				75D53F8A225A69EC0055421F /* LaunchScreen.storyboard */,
 				75D53F8D225A69EC0055421F /* Info.plist */,
@@ -153,6 +159,30 @@
 				75D53FA3225A69EC0055421F /* Info.plist */,
 			);
 			path = TwitusUITests;
+			sourceTree = "<group>";
+		};
+		75DF063922618787000918F4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75376629225D92FC000FF34B /* HomeDatasourceController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75DF063A22618790000918F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75DF063E22618883000918F4 /* HomeDatasource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75DF063B226187A9000918F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75DF063C226187D3000918F4 /* Cell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B0E7DD6E6540F722916F66D8 /* Frameworks */ = {
@@ -390,7 +420,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75DF063F22618883000918F4 /* HomeDatasource.swift in Sources */,
 				75D53F82225A69EA0055421F /* AppDelegate.swift in Sources */,
+				75DF063D226187D3000918F4 /* Cell.swift in Sources */,
 				7537662A225D92FC000FF34B /* HomeDatasourceController.swift in Sources */,
 				751100F5225A741B008E8AB2 /* HomeController.swift in Sources */,
 			);
