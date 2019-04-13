@@ -41,6 +41,7 @@ class UserCell: DatasourceCell {
     let nameLabel: UILabel = {
         let label = UILabel()
         label.text = "TEST TEST TEST"
+        label.backgroundColor = .green
         return label
     }()
     
@@ -50,6 +51,8 @@ class UserCell: DatasourceCell {
         
         
         addSubview(profileImageView)
+        addSubview(nameLabel)
+        
         profileImageView.anchor(self.topAnchor, left: self.leftAnchor, bottom: nil, right: nil, topConstant: 12
             , leftConstant: 12
             , bottomConstant: 0
@@ -57,9 +60,12 @@ class UserCell: DatasourceCell {
             , widthConstant: 50
             , heightConstant: 50)
         
-        
-        addSubview(nameLabel)
-        nameLabel.anchor(topAnchor, left: leftAnchor, bottom: bottomAnchor, right: rightAnchor, topConstant: 0, leftConstant: 0, bottomConstant: 0, rightConstant: 0, widthConstant: 0, heightConstant: 0)
+        nameLabel.anchor(profileImageView.topAnchor, left: profileImageView.rightAnchor, bottom: nil, right: self.rightAnchor, topConstant: 0
+            , leftConstant: 4
+            , bottomConstant: 0
+            , rightConstant: 12
+            , widthConstant: 0
+            , heightConstant: 20)
         
     }
 }
