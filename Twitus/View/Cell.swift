@@ -37,6 +37,7 @@ class UserCell: DatasourceCell {
         
         imageView.layer.cornerRadius = 5
         imageView.layer.masksToBounds = true
+        imageView.clipsToBounds = true
         return imageView
         
     }()
