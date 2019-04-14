@@ -84,7 +84,7 @@ class UserCell: DatasourceCell {
             , widthConstant: 50
             , heightConstant: 50)
         
-        nameLabel.anchor(profileImageView.topAnchor, left: profileImageView.rightAnchor, bottom: nil, right: self.rightAnchor, topConstant: 0
+        nameLabel.anchor(profileImageView.topAnchor, left: profileImageView.rightAnchor, bottom: nil, right: followButton.leftAnchor, topConstant: 0
             , leftConstant: 8
             , bottomConstant: 0
             , rightConstant: 12
