@@ -34,7 +34,9 @@ class UserCell: DatasourceCell {
     let profileImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named:"profile_image.jpg")
-        imageView.backgroundColor = .red
+        
+        imageView.layer.cornerRadius = 5
+        imageView.layer.masksToBounds = true
         return imageView
         
     }()
