@@ -26,13 +26,14 @@ class UserCell: DatasourceCell {
     
     override var datasourceItem: Any? {
         didSet {
-            nameLabel.text = datasourceItem as? String
+//            nameLabel.text = datasourceItem as? String
         }
         
     }
     
     let profileImageView: UIImageView = {
         let imageView = UIImageView()
+        imageView.image = UIImage(named:"profile_image.jpg")
         imageView.backgroundColor = .red
         return imageView
         
