@@ -44,21 +44,22 @@ class UserCell: DatasourceCell {
     
     let nameLabel: UILabel = {
         let label = UILabel()
-        label.text = "TEST TEST TEST"
-        label.backgroundColor = .green
+        label.text = "Joie Chavez"
+        label.font = UIFont.boldSystemFont(ofSize: 16)
         return label
     }()
     
     let usernameLabel: UILabel = {
         let label = UILabel()
-        label.text = "username"
-        label.backgroundColor = .purple
+        label.text = "@shai.com"
+        label.font = UIFont.systemFont(ofSize: 14)
         return label
     }()
     
     let bioTextView:  UITextView = {
         let textView = UITextView()
-        textView.backgroundColor = .yellow
+        textView.text = "For many of us, the vernal shift also brings an “aha” moment in front of the mirror, when the requisite sweaters and boots of recent months suddenly feel like remnants from another era."
+        
         return textView
         
     }()
@@ -95,7 +96,7 @@ class UserCell: DatasourceCell {
             , widthConstant: 0
             , heightConstant: 20)
         
-        usernameLabel.anchor(nameLabel.bottomAnchor, left: nameLabel.leftAnchor, bottom: nil, right: nameLabel.rightAnchor, topConstant: 8
+        usernameLabel.anchor(nameLabel.bottomAnchor, left: nameLabel.leftAnchor, bottom: nil, right: nameLabel.rightAnchor, topConstant: 0
             , leftConstant: 0
             , bottomConstant: 0
             , rightConstant: 0
