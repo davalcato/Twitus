@@ -53,12 +53,14 @@ class UserCell: DatasourceCell {
         let label = UILabel()
         label.text = "@shai.com"
         label.font = UIFont.systemFont(ofSize: 14)
+        label.textColor = UIColor(r: 230, g: 230, b: 230)
         return label
     }()
     
     let bioTextView:  UITextView = {
         let textView = UITextView()
         textView.text = "For many of us, the vernal shift also brings an “aha” moment in front of the mirror, when the requisite sweaters and boots of recent months suddenly feel like remnants from another era."
+        textView.font = UIFont.systemFont(ofSize: 12)
         
         return textView
         
@@ -103,8 +105,8 @@ class UserCell: DatasourceCell {
             , widthConstant: 0
             , heightConstant: 20)
         
-        bioTextView.anchor(usernameLabel.bottomAnchor, left: usernameLabel.leftAnchor, bottom: self.bottomAnchor, right: self.rightAnchor, topConstant: 0
-            , leftConstant: 0
+        bioTextView.anchor(usernameLabel.bottomAnchor, left: usernameLabel.leftAnchor, bottom: self.bottomAnchor, right: self.rightAnchor, topConstant: -4
+            , leftConstant: -4
             , bottomConstant: 0
             , rightConstant: 0
             , widthConstant: 0

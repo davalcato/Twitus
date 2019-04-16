@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		593FCE0E5DEB771D65A391FF /* Pods_Twitus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38354AD04BA060E5C16A43CA /* Pods_Twitus.framework */; };
 		5D3ECA1BA0257E70087F02DD /* Pods_TwitusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE749A2099A9C092F45A0B13 /* Pods_TwitusUITests.framework */; };
 		751100F5225A741B008E8AB2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751100F4225A741B008E8AB2 /* HomeController.swift */; };
 		7519204D2263DA06002965E9 /* profile_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7519204A2263D978002965E9 /* profile_image.jpg */; };
@@ -46,6 +45,7 @@
 		70DED920D8A01BD0D74E1177 /* Pods-TwitusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitusUITests.debug.xcconfig"; path = "Target Support Files/Pods-TwitusUITests/Pods-TwitusUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		751100F4225A741B008E8AB2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		7519204A2263D978002965E9 /* profile_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile_image.jpg; sourceTree = "<group>"; };
+		751D253522640849001ABB23 /* Pods_Twitus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Twitus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75376629225D92FC000FF34B /* HomeDatasourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDatasourceController.swift; sourceTree = "<group>"; };
 		75D53F7E225A69EA0055421F /* Twitus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D53F81225A69EA0055421F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				593FCE0E5DEB771D65A391FF /* Pods_Twitus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +190,7 @@
 		B0E7DD6E6540F722916F66D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				751D253522640849001ABB23 /* Pods_Twitus.framework */,
 				38354AD04BA060E5C16A43CA /* Pods_Twitus.framework */,
 				A204CA40DC7131A3E9B3226D /* Pods_TwitusTests.framework */,
 				CE749A2099A9C092F45A0B13 /* Pods_TwitusUITests.framework */,
@@ -526,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -581,7 +581,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -598,12 +598,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QFQW29JWKY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LBTAComponents\"",
+				);
 				INFOPLIST_FILE = Twitus/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.me2software.Twitus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -618,12 +624,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QFQW29JWKY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LBTAComponents\"",
+				);
 				INFOPLIST_FILE = Twitus/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.me2software.Twitus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
