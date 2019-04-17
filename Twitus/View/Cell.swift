@@ -76,11 +76,11 @@ class UserCell: DatasourceCell {
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14)
         button.setTitleColor(twitusBlue, for: .normal)
         button.setImage(UIImage(named: "follow"), for: .normal)
+        button.imageView?.contentMode = .scaleAspectFit
         
         return button
         
     }()
-    
     
     override func setupViews() {
         super.setupViews()
