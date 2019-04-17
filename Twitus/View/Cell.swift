@@ -68,7 +68,9 @@ class UserCell: DatasourceCell {
     
     let followButton: UIButton = {
         let button = UIButton()
-        button.backgroundColor = .cyan
+        button.layer.cornerRadius = 5
+        button.layer.borderColor = UIColor.cyan.cgColor
+        button.layer.borderWidth = 1
         return button
         
     }()
