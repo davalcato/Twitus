@@ -53,7 +53,7 @@ class UserCell: DatasourceCell {
         let label = UILabel()
         label.text = "@shai.com"
         label.font = UIFont.systemFont(ofSize: 14)
-        label.textColor = UIColor(r: 230, g: 230, b: 230)
+        label.textColor = UIColor(r: 130, g: 130, b: 130)
         return label
     }()
     
