@@ -75,6 +75,8 @@ class UserCell: DatasourceCell {
         button.setTitle("Follow", for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14)
         button.setTitleColor(twitusBlue, for: .normal)
+        button.setImage(UIImage(named: "follow"), for: .normal)
+        
         return button
         
     }()
