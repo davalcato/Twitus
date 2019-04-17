@@ -16,9 +16,21 @@ class UserFooter: DatasourceCell {
 }
 
 class UserHeader: DatasourceCell {
+    let textLabel: UILabel = {
+        let label = UILabel()
+        label.text = "WHO TO FOLLOW"
+        label.font = UIFont.systemFont(ofSize: 16)
+        return label
+    }()
+    
+    
     override func setupViews() {
         super.setupViews()
-        backgroundColor = .blue
+        
+        
+        addSubview(textLabel)
+        textLabel.fillSuperview()
+        
     }
 }
 
@@ -78,6 +90,7 @@ class UserCell: DatasourceCell {
         button.setImage(UIImage(named: "follow"), for: .normal)
         button.imageView?.contentMode = .scaleAspectFit
         button.imageEdgeInsets = UIEdgeInsets(top: 0, left: -8, bottom: 0, right: 0)
+        
         
         return button
         
