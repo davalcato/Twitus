@@ -67,12 +67,13 @@ class UserCell: DatasourceCell {
     }()
     
     let followButton: UIButton = {
+        let twitusBlue = UIColor(r: 61, g: 167, b: 244)
         let button = UIButton()
         button.layer.cornerRadius = 5
-        button.layer.borderColor = UIColor.cyan.cgColor
+        button.layer.borderColor = twitusBlue.cgColor
         button.layer.borderWidth = 1
         button.setTitle("Follow", for: .normal)
-        let twitusBlue = UIColor(r: 61, g: 167, b: 244)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14)
         button.setTitleColor(twitusBlue, for: .normal)
         return button
         
