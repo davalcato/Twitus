@@ -8,10 +8,30 @@
 
 import LBTAComponents
 
+let twitusBlue = UIColor(r: 61, g: 167, b: 244)
+
 class UserFooter: DatasourceCell {
+    
+    let textLabel: UILabel = {
+        let label = UILabel()
+        label.text = "Show me more"
+        label.font = UIFont.systemFont(ofSize: 15)
+        label.textColor = twitusBlue
+        return label
+    }()
+    
     override func setupViews() {
         super.setupViews()
-        backgroundColor = .blue
+        
+        addSubview(textLabel)
+        textLabel.anchor(topAnchor, left: leftAnchor, bottom: bottomAnchor, right: rightAnchor
+            , topConstant: 0
+            , leftConstant: 12
+            , bottomConstant: 0
+            , rightConstant: 0
+            , widthConstant: 0
+            , heightConstant: 0)
+       
     }
 }
 
@@ -22,7 +42,6 @@ class UserHeader: DatasourceCell {
         label.font = UIFont.systemFont(ofSize: 16)
         return label
     }()
-    
     
     override func setupViews() {
         super.setupViews()
@@ -85,7 +104,6 @@ class UserCell: DatasourceCell {
     }()
     
     let followButton: UIButton = {
-        let twitusBlue = UIColor(r: 61, g: 167, b: 244)
         let button = UIButton()
         button.layer.cornerRadius = 5
         button.layer.borderColor = twitusBlue.cgColor
