@@ -98,6 +98,7 @@ class UserCell: DatasourceCell {
         let textView = UITextView()
         textView.text = "For many of us, the vernal shift also brings an “aha” moment in front of the mirror, when the requisite sweaters and boots of recent months suddenly feel like remnants from another era."
         textView.font = UIFont.systemFont(ofSize: 12)
+        textView.backgroundColor = .clear
         
         return textView
         
