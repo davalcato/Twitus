@@ -63,7 +63,8 @@ class UserCell: DatasourceCell {
     
     override var datasourceItem: Any? {
         didSet {
-//            nameLabel.text = datasourceItem as? String
+            print(datasourceItem as Any)
+            
         }
         
     }
