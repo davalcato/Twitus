@@ -11,6 +11,7 @@
 		751100F5225A741B008E8AB2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751100F4225A741B008E8AB2 /* HomeController.swift */; };
 		7519204D2263DA06002965E9 /* profile_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7519204A2263D978002965E9 /* profile_image.jpg */; };
 		7537662A225D92FC000FF34B /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75376629225D92FC000FF34B /* HomeDatasourceController.swift */; };
+		75CD16B3226A977000797344 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD16B2226A977000797344 /* User.swift */; };
 		75D53F82225A69EA0055421F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D53F81225A69EA0055421F /* AppDelegate.swift */; };
 		75D53F89225A69EC0055421F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D53F88225A69EC0055421F /* Assets.xcassets */; };
 		75D53F8C225A69EC0055421F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D53F8A225A69EC0055421F /* LaunchScreen.storyboard */; };
@@ -47,6 +48,7 @@
 		7519204A2263D978002965E9 /* profile_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile_image.jpg; sourceTree = "<group>"; };
 		751D253522640849001ABB23 /* Pods_Twitus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Twitus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75376629225D92FC000FF34B /* HomeDatasourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDatasourceController.swift; sourceTree = "<group>"; };
+		75CD16B2226A977000797344 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		75D53F7E225A69EA0055421F /* Twitus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D53F81225A69EA0055421F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75D53F88225A69EC0055421F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				75DF063E22618883000918F4 /* HomeDatasource.swift */,
+				75CD16B2226A977000797344 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 			files = (
 				75DF063F22618883000918F4 /* HomeDatasource.swift in Sources */,
 				75D53F82225A69EA0055421F /* AppDelegate.swift in Sources */,
+				75CD16B3226A977000797344 /* User.swift in Sources */,
 				75DF063D226187D3000918F4 /* Cell.swift in Sources */,
 				7537662A225D92FC000FF34B /* HomeDatasourceController.swift in Sources */,
 				751100F5225A741B008E8AB2 /* HomeController.swift in Sources */,
