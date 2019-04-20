@@ -65,6 +65,11 @@ class UserCell: DatasourceCell {
         didSet {
             print(datasourceItem as Any)
             
+            guard let user = datasourceItem as? User else { return }
+            nameLabel.text = user.name
+            usernameLabel.text = user.username
+            bioTextView.text = user.bioText
+            
         }
         
     }
@@ -83,7 +88,7 @@ class UserCell: DatasourceCell {
     let nameLabel: UILabel = {
         let label = UILabel()
         label.text = "Joie Chavez"
-        label.font = UIFont.boldSystemFont(ofSize: 16)
+        label.font = UIFont.boldSystemFont(ofSize: 14)
         return label
     }()
     

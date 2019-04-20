@@ -12,9 +12,13 @@ import LBTAComponents
 class HomeDatasource: Datasource {
     
     let users: [User] = {
-        let davalUser = User(name: "TEST", username: "@testtesttest", bioText: "SOME MORE BIO TEXT")
+        let davalUser = User(name: "Joie Chavez", username: "@shai.com", bioText: "For many of us, the vernal shift also brings an “aha” moment in front of the mirror, when the requisite sweaters and boots of recent months suddenly feel like remnants from another era.")
         
-        return [davalUser]
+        let kimUser = User(name: "Kim Kardashian", username: "@fashionland", bioText: "Best clothing designer in New York")
+        
+        
+        
+        return [davalUser, kimUser]
         
     }()
     
