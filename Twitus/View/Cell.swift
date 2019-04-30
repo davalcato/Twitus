@@ -23,6 +23,9 @@ class UserFooter: DatasourceCell {
     override func setupViews() {
         super.setupViews()
         
+        separatorLineView.isHidden = false
+        separatorLineView.backgroundColor = UIColor(r: 230, g: 230, b: 230)
+        
         addSubview(textLabel)
         textLabel.anchor(topAnchor, left: leftAnchor, bottom: bottomAnchor, right: rightAnchor
             , topConstant: 0
@@ -69,6 +72,7 @@ class UserCell: DatasourceCell {
             nameLabel.text = user.name
             usernameLabel.text = user.username
             bioTextView.text = user.bioText
+            profileImageView.image = user.profileImage
             
         }
         

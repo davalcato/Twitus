@@ -12,18 +12,17 @@ import LBTAComponents
 class HomeDatasource: Datasource {
     
     let users: [User] = {
-        let davalUser = User(name: "Joie Chavez", username: "@shai.com", bioText: "For many of us, the vernal shift also brings an “aha” moment in front of the mirror, when the requisite sweaters and boots of recent months suddenly feel like remnants from another era.")
+        let shaiUser = User(name: "Shai Chavez", username: "@shaiclothing.com", bioText: "For many of us, the vernal shift also brings an “aha” moment in front of the mirror, when the requisite sweaters and boots of recent months suddenly feel like remnants from another era.", profileImage: UIImage(named:"girl_profile_image.png")!
         
-        let kimUser = User(name: "Kim Kardashian", username: "@fashionland", bioText: "Best clothing designer in New York")
-        
-        
-        
-        return [davalUser, kimUser]
+        let katUser = User(name: "Kat Pasion", username: "@pasionTV", bioText: "Kat is a tv personality with a few show on Snapchat", profileImage: pretty_profile_image.png)
+            
+//            UIImage(named:"pretty_profile_image.png"
+      
+        return [shaiUser, katUser]
         
     }()
     
-//    let words = ["user1", "user2", "user3"]
-    
+
     override func footerClasses() -> [DatasourceCell.Type]? {
         return [UserFooter.self]
     }

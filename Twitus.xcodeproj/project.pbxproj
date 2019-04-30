@@ -11,9 +11,9 @@
 		751100F5225A741B008E8AB2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751100F4225A741B008E8AB2 /* HomeController.swift */; };
 		7519204D2263DA06002965E9 /* profile_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7519204A2263D978002965E9 /* profile_image.jpg */; };
 		7537662A225D92FC000FF34B /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75376629225D92FC000FF34B /* HomeDatasourceController.swift */; };
+		753C90972275539C001AF5D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753C90962275539C001AF5D1 /* Assets.xcassets */; };
 		75CD16B3226A977000797344 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CD16B2226A977000797344 /* User.swift */; };
 		75D53F82225A69EA0055421F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D53F81225A69EA0055421F /* AppDelegate.swift */; };
-		75D53F89225A69EC0055421F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D53F88225A69EC0055421F /* Assets.xcassets */; };
 		75D53F8C225A69EC0055421F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D53F8A225A69EC0055421F /* LaunchScreen.storyboard */; };
 		75D53F97225A69EC0055421F /* TwitusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D53F96225A69EC0055421F /* TwitusTests.swift */; };
 		75D53FA2225A69EC0055421F /* TwitusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D53FA1225A69EC0055421F /* TwitusUITests.swift */; };
@@ -48,10 +48,10 @@
 		7519204A2263D978002965E9 /* profile_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile_image.jpg; sourceTree = "<group>"; };
 		751D253522640849001ABB23 /* Pods_Twitus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Twitus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75376629225D92FC000FF34B /* HomeDatasourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDatasourceController.swift; sourceTree = "<group>"; };
+		753C90962275539C001AF5D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75CD16B2226A977000797344 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		75D53F7E225A69EA0055421F /* Twitus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D53F81225A69EA0055421F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75D53F88225A69EC0055421F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75D53F8B225A69EC0055421F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75D53F8D225A69EC0055421F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75D53F92225A69EC0055421F /* TwitusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,7 +139,7 @@
 				75DF063922618787000918F4 /* Controller */,
 				75D53F81225A69EA0055421F /* AppDelegate.swift */,
 				751100F4225A741B008E8AB2 /* HomeController.swift */,
-				75D53F88225A69EC0055421F /* Assets.xcassets */,
+				753C90962275539C001AF5D1 /* Assets.xcassets */,
 				7519204A2263D978002965E9 /* profile_image.jpg */,
 				75D53F8A225A69EC0055421F /* LaunchScreen.storyboard */,
 				75D53F8D225A69EC0055421F /* Info.plist */,
@@ -310,8 +310,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				75D53F8C225A69EC0055421F /* LaunchScreen.storyboard in Resources */,
+				753C90972275539C001AF5D1 /* Assets.xcassets in Resources */,
 				7519204D2263DA06002965E9 /* profile_image.jpg in Resources */,
-				75D53F89225A69EC0055421F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
